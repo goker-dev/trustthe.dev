@@ -5,10 +5,10 @@ const CONTACT_EMAIL = 'contact[at]goker.dev'
 const DEFAULT_LOCALE = 'en_US'
 const DEFAULT_DESCRIPTION =
   'A component for developers who build with transparency, versioning, and soul.'
-const DEFAULT_OG_IMAGE = '/default.png'
+const DEFAULT_OG_IMAGE = '/placeholder.jpg'
 const OG_WIDTH = 1200
 const OG_HEIGHT = 630
-const DEFAULT_SCHEMA_IMAGE = '/default.png'
+const DEFAULT_SCHEMA_IMAGE = '/placeholder.jpg'
 const AUTHOR_NAME = 'goker'
 const AUTHOR_URL = 'https://goker.dev/goker'
 const TWITTER_HANDLE = '@gokerDEV'
