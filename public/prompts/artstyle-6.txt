@@ -1,5 +1,0 @@
-Art Style:
-Use the Gothic stained glass style characterized by luminous, jewel-like colors — deep blues, ruby reds, emerald greens, golden yellows, and violets — separated by strong black outlines simulating lead came. Depict slender, elongated, and elegant figures with stylized drapery folds and slight S-curve poses. Emphasize decorative, vertical compositions with narrative panel divisions and Gothic architectural tracery. Avoid realistic 3D depth, smooth color blending, photorealism, and Renaissance or Baroque anatomical realism.
-
-Scene & Technical Details:
-Render in a 4:3 aspect ratio (1536×1024 resolution) with a backlit glow effect to simulate transmitted light through colored glass. Maintain a direct, front-on view, optionally with a slight upward angle, highlighting the flatness of the stained glass surface. Frame the composition within Gothic stone tracery such as pointed arches, rose window patterns, or mullions. Preserve the clarity of lead line structures and the vibrancy of jewel-toned colors without introducing smooth gradients or realistic shading, maintaining the luminous narrative tradition of Gothic windows.

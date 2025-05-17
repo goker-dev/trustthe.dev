@@ -1,19 +1,11 @@
 export const navigation = [
   {
-    text: 'WRITINGS',
-    to: '/writings',
+    text: 'ABOUT',
+    to: '/about',
   },
   {
-    text: 'ECHONEO',
-    to: '/echoneo',
-  },
-  {
-    text: 'ART HISTORY',
-    to: '/art-history',
-  },
-  {
-    text: 'GOKER',
-    to: '/goker',
+    text: 'MANIFESTO',
+    to: '/manifesto',
   },
 ]
 
@@ -34,20 +26,20 @@ export const coverRatios = (slug: string) =>
   })[slug] || '16/9'
 
 export const footerLinks = [
-  {
-    text: 'gokerME',
-    to: 'https://goker.me',
-  },
-  {
-    text: 'gokerDEV',
-    to: 'https://goker.dev',
-  },
-  {
-    text: 'gokerART',
-    to: 'https://goker.art',
-  },
-  {
-    text: 'gokerIN',
-    to: 'https://goker.in',
-  },
+  // {
+  //   text: 'gokerME',
+  //   to: 'https://goker.me',
+  // },
+  // {
+  //   text: 'gokerDEV',
+  //   to: 'https://goker.dev',
+  // },
+  // {
+  //   text: 'gokerART',
+  //   to: 'https://goker.art',
+  // },
+  // {
+  //   text: 'gokerIN',
+  //   to: 'https://goker.in',
+  // },
 ]

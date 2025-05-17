@@ -1,5 +1,0 @@
-Art Style:
-Use the Renaissance art style characterized by idealized naturalism, realistic human anatomy, and mastery of linear perspective to create rational, ordered space. Apply chiaroscuro lighting to model forms and add depth. Employ a rich, harmonious, and naturalistic color palette blending deep reds, blues, yellows, greens, and realistic flesh tones. Ensure smooth surface finishes with subtle transitions and detailed rendering of materials such as fabric and skin. Favor balanced, pyramidal, or symmetrical compositions. Avoid flatness, abstraction, heavy outlines, photorealism, and exaggerated anatomical distortions.
-
-Scene & Technical Details:
-Render in a 4:3 aspect ratio (1536×1024 resolution) using soft, directional lighting to enhance three-dimensional volume. Use an eye-level or slightly low-angle perspective to reinforce realistic spatial depth through linear perspective techniques. Compose the scene within an idealized natural landscape or architecturally ordered background. Maintain a smooth, painterly finish with careful blending and fine detail work, avoiding modern art styles, cartoon-like simplifications, or primitive visual conventions.

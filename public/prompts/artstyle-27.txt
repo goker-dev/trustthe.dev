@@ -1,6 +1,0 @@
-Art Style:
-Apply the Contemporary Art approach, characterized by extreme diversity, plurality, and the absence of a single dominant style or ideology. Embrace globalized perspectives, reflecting influences from technology, social media, environmental concerns, identity politics, activism, and interdisciplinary practices. Styles can range from hyperrealism to pure abstraction, minimalism to maximalism, conceptual to craft-based. Methods often blend traditional media with digital technologies, installation, performance, community engagement, and AI-assisted creation. Appropriation, irony, and hybridization of disciplines are common.
-
-Scene & Technical Details:
-Render the work in a 4:3 aspect ratio (1536×1024 resolution) with flat, even lighting without strong shadows. Use a direct, straight-on camera view. The visual execution is fully context-dependent: it can be hyper-detailed or highly abstract, static or interactive, minimal or overflowing with detail. Textures, colors, and compositional strategies are determined entirely by the conceptual intent of the piece rather than by stylistic constraints. There are no prescriptive visual rules — every choice should serve the specific conceptual, emotional, or narrative focus of the artwork.
-

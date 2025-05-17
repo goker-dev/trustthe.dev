@@ -18,8 +18,8 @@ export async function Author({
   if (!data) return <>NOT FOUND</>
   const { cover } = getImages(data)
 
-  const authorHref = `/${data?.slug}`
-  const authorTitle = data?.title || 'G/G'
+  const authorHref = `/about`
+  const authorTitle = data?.title || 'THE DEV'
 
   const publishedAt =
     ((note?.updatedAt || 0) > (note?.createdAt || 0)
@@ -30,7 +30,6 @@ export async function Author({
     <div
       className="author mt-6 flex w-full items-center gap-3"
       data-author={authorTitle}
-      data-author-original-name="Göker"
       data-role="creator"
       aria-label={`Author block: Created by ${authorTitle}`}
     >

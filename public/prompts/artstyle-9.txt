@@ -1,5 +1,0 @@
-Art Style:
-Use strong chiaroscuro and tenebrism lighting to create deep shadows and brilliant highlights. Favor rich, saturated colors like deep reds, golds, dark greens, and deep blues, contrasted with luminous creams and sharp blacks. Composition should be dynamic, swirling, and full of movement — using strong diagonals, dramatic foreshortening, and ornate detail. Figures should be realistic, sensuous, caught mid-action or emotional climax. Avoid flat lighting, calmness, pale or pastel colors, and static or symmetrical compositions.
-
-Scene & Technical Details:
-Render the scene in a 4:3 aspect ratio (1536×1024 resolution) with dramatic, focused lighting to enhance the three-dimensionality and emotional tension. Use low or oblique camera angles to amplify the dynamism and theatricality. The setting can be a turbulent natural landscape or a dark, undefined background isolating the figures. Simulate oil painting with rich glazing and optional impasto textures for depth. Prioritize emotional immediacy, movement, grandeur, and ornate decorative richness, steering clear of serene, minimalist, or symmetrical approaches.

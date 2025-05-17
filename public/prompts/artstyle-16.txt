@@ -1,5 +1,0 @@
-Art Style:
-Use the Fauvism style, characterized by intense, arbitrary, non-naturalistic use of color to express emotion and structure. Apply bold, pure, unmixed colors directly to the canvas, with strong contrasts and unexpected color choices (e.g., green skies, orange animals). Forms should be simplified and abstracted, with flattened perspective and energetic, spontaneous brushwork. Surface pattern and color planes should dominate the composition rather than realistic depth. Strong outlines may separate areas of vivid color. The overall feeling should be joyful, vibrant, and expressive, favoring raw energy over realism.
-
-Scene & Technical Details:
-Render the image in a 4:3 aspect ratio (1536×1024 resolution) using flat, even, bright lighting without realistic shadows. Use a direct, straight-on view emphasizing the two-dimensional surface and bold color zones. Avoid realistic perspective, atmospheric depth, shading, or blending. Focus on strong outlines, flat application of vivid colors, and dynamic arrangement of color fields. Brushstrokes should remain visible and energetic, celebrating the materiality of paint and the spontaneity of the moment.

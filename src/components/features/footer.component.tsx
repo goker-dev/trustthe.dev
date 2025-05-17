@@ -15,7 +15,7 @@ export default function Footer() {
           <Link href="/" aria-label="Home">
             <Logo className="fill-primary -mb-2 h-6 w-auto" />
           </Link>
-          <p>© {currentYear} Goker. All rights reserved.</p>
+          <p>{currentYear} Trust The Developer. No rights reserved.</p>
         </div>
         <nav className="flex items-center gap-6" aria-label="Footer navigation">
           {footerLinks.map(({ text, to }, index) => (

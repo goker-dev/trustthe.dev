@@ -1,10 +1,10 @@
-const DOMAIN = process.env.DOMAIN || 'goker.dev'
+const DOMAIN = process.env.DOMAIN || 'trustthe.dev'
 const BASE_URL = `https://${DOMAIN}`
-const SITE_NAME = 'gokerDEV'
-const CONTACT_EMAIL = 'contact[at]goker.me'
+const SITE_NAME = 'Trust The Developer'
+const CONTACT_EMAIL = 'contact[at]goker.dev'
 const DEFAULT_LOCALE = 'en_US'
 const DEFAULT_DESCRIPTION =
-  "I'm oil-free piece of fried eggs, determined to cling on the floor and completely contrary from the whole..."
+  'A component for developers who build with transparency, versioning, and soul.'
 const DEFAULT_OG_IMAGE = '/default.png'
 const OG_WIDTH = 1200
 const OG_HEIGHT = 630
@@ -13,8 +13,8 @@ const AUTHOR_NAME = 'goker'
 const AUTHOR_URL = 'https://goker.dev/goker'
 const TWITTER_HANDLE = '@gokerDEV'
 const TWITTER_CARD_TYPE = 'summary_large_image'
-const ORGANIZATION_NAME = 'goker'
-const ORGANIZATION_URL = 'https://goker.dev'
+const ORGANIZATION_NAME = 'Trust The Developer'
+const ORGANIZATION_URL = 'https://trustthe.dev'
 
 // Trust the developers
 const TECH_STACK = 'Next.js 15, React 19, Tailwind 4, Shadcn UI, KODKAFA API'

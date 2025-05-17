@@ -3,8 +3,6 @@ import {
   notesControllerFindOneBySlug,
 } from '@/api/kodkafa'
 import { Container } from '@/components/common/container.component'
-import GokerIshPrompt from '@/components/features/goker-ish-propt.component'
-import LogoAnimation from '@/components/features/logo-animation.component'
 import { getDescription, getImages } from '@/lib/image.utils'
 import { metadataGenerator } from '@/lib/seo/metadata.generator'
 import { asUrl } from '@/lib/seo/url-slug.utils'
@@ -44,9 +42,9 @@ const Page = async () => {
   // })
 
   return (
-    <Container>
+    <Container className="flex grow flex-col items-center justify-center">
       <div className="flex h-full w-full flex-col items-center gap-4 sm:justify-center">
-        <div className="flex w-full max-w-[660px] p-4">
+        {/* <div className="flex w-full max-w-[660px] p-4">
           <div className="-mx-2 mt-9 md:mt-2.5">
             <LogoAnimation className="fill-primary float-left mr-4 block h-12 w-12 md:h-32 md:w-32" />
           </div>
@@ -55,11 +53,10 @@ const Page = async () => {
               <h1 className="pb-2 pl-4 text-lg font-bold">
                 Try &quot;goker-ish&quot; GPT
               </h1>
-              {/* <TagCloud tags={tags || []} limit={5} skipSizing={true} className="w-1/2 gap-1.5 text-xs mb-1.5 " /> */}
             </div>
             <GokerIshPrompt />
           </div>
-        </div>
+        </div> */}
         <article>
           <span className="text-muted-foreground pb-1 text-xs font-semibold uppercase">
             Last post:
