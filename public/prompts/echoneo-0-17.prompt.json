@@ -1,0 +1,110 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://goker.art/schemas/echoneo-prompt.schema.json/instances/prehistoric-expressionism",
+    "$type": "echoneo-artwork-prompt/v1",
+    "artworkTitle": "Prehistoric Art depicted in Expressionism Art Style",
+    "conceptDefinition": {
+        "origin": "Prehistoric Art",
+        "coreThemes": [
+            "Survival",
+            "The Hunt",
+            "Ritual",
+            "Human relationship with large fauna",
+            "Primal energy"
+        ],
+        "keySubjects": [
+            "Simplified human figures (hunters)",
+            "Large animals (e.g., bison, aurochs, deer)",
+            "Spears or primitive hunting tools",
+            "Cave walls or rocky landscape elements (as subject matter)"
+        ],
+        "narrativeFocus": "Depict a group of simplified, active human figures engaged in hunting a large bison or similar prehistoric animal. Focus on the action and relationship between hunters and prey.",
+        "desiredEmotion": "A mix of ritualistic reverence, primal tension, and the importance of the hunt for survival.",
+        "symbolismHints": [
+            "Emphasize the size and power of the animal",
+            "Show coordination among hunters",
+            "Use repetitive patterns if suggesting ritual"
+        ],
+        "references": [
+            "Cave paintings of Lascaux",
+            "Altamira cave art depictions of bison"
+        ]
+    },
+    "styleDefinition": {
+        "origin": "Expressionism (Primarily Germany, Austria, Scandinavia, c. 1905 - 1930s AD)",
+        "visualCharacteristics": [
+            "Primary goal: Express subjective emotions, inner turmoil, and psychological states rather than objective reality",
+            "Distortion of form, color, and space for emotional impact",
+            "Intense, often jarring, non-naturalistic colors used subjectively to convey feelings (angst, spirituality, alienation)",
+            "Bold, energetic, often crude or agitated brushwork",
+            "Simplified, primitive, or angular forms (influenced by folk art, non-Western art, medieval woodcuts)",
+            "Often reflects anxieties of modern life, urbanization, war, or social critique",
+            "Figures may appear distorted, mask-like, or emotionally raw"
+        ],
+        "techniques": [
+            "Oil painting simulation with vigorous, often impastoed brushwork",
+            "Woodcut print simulation (bold lines, stark contrasts, gouged effect)",
+            "Direct, spontaneous execution emphasizing emotional intensity",
+            "Simplified drawing, prioritizing expression over anatomical accuracy"
+        ],
+        "mediumSimulation": "Oil painting on canvas (or Woodcut print simulation)",
+        "colorPalette": {
+            "description": "Intense, subjective, and often non-naturalistic colors chosen for maximum emotional impact. Can range from dark, brooding palettes to clashing, high-key combinations. High contrast, dissonant harmonies, and symbolic color use are common.",
+            "keyColors": [
+                "Intense Reds",
+                "Jarring Yellows / Oranges",
+                "Deep Blues / Purples",
+                "Unsettling Greens",
+                "Stark Blacks (often for outlines)",
+                "Bleak Whites / Greys"
+            ]
+        },
+        "textureEmphasis": "Brushwork is typically highly visible, energetic, agitated, or thick with impasto, directly conveying the artist's emotional state and the intensity of the subject. Woodcut influence emphasizes raw, gouged textures.",
+        "compositionStyle": "Often features distorted perspective, jarring diagonals, compressed or claustrophobic space, and dynamic, agitated arrangements. Rejects traditional harmony and balance in favor of compositions that enhance emotional intensity, unease, or spiritual fervor.",
+        "references": [
+            "Edvard Munch ('The Scream' - precursor)",
+            "Ernst Ludwig Kirchner ('Street, Berlin')",
+            "Wassily Kandinsky (Improvisations, early abstract works)",
+            "Franz Marc ('Blue Horse I')",
+            "Emil Nolde ('Masks', religious works)",
+            "Egon Schiele (Self-portraits, nudes)",
+            "Oskar Kokoschka (Portraits)"
+        ]
+    },
+    "sceneContext": {
+        "lightingStyle": "Flat, even, bright lighting with no discernible source or shadows, typical of Egyptian art.",
+        "cameraView": "Strict profile or composite view, straight-on perspective, avoiding complex angles.",
+        "settingSuggestion": "A stylized representation of a cave interior or outdoor landscape, framed perhaps with simple geometric Egyptian borders or patterns."
+    },
+    "aiDirectives": {
+        "width": 1536,
+        "height": 1024,
+        "aspectRatio": "4:3",
+        "emphasize": [
+            "Composite view of figures",
+            "Strong outlines",
+            "Flat color application",
+            "Hierarchical scale (if applicable)",
+            "Formal arrangement of figures"
+        ],
+        "avoid": [
+            "Realistic perspective",
+            "Atmospheric depth",
+            "Shading and blending of colors",
+            "Dynamic, fluid poses (use stiff Egyptian poses)",
+            "Realistic anatomy",
+            "Visible brushstrokes",
+            "1:1 aspect ratio"
+        ],
+        "styleStrength": 0.85,
+        "negativePromptHints": [
+            "photorealistic",
+            "3D render",
+            "depth",
+            "perspective",
+            "shadows",
+            "impressionistic",
+            "sketchy"
+        ]
+    }
+}

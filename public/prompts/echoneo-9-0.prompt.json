@@ -1,0 +1,122 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://goker.art/schemas/echoneo-prompt.schema.json/instances/baroque-prehistoric",
+    "$type": "echoneo-artwork-prompt/v1",
+    "artworkTitle": "Baroque Art depicted in Prehistoric Art Style",
+    "conceptDefinition": {
+        "origin": "Baroque Art & Culture (Europe, c. 1600 - 1750 AD)",
+        "coreThemes": [
+            "Drama",
+            "Intense Emotion",
+            "Movement / Dynamism",
+            "Energy",
+            "Conflict / Action",
+            "Spiritual Fervor (simplified)"
+        ],
+        "keySubjects": [
+            "Figures in dynamic action poses (reaching, falling, fighting)",
+            "Figures expressing strong emotion (grief, ecstasy - simplified)",
+            "Contorted or twisting bodies",
+            "Dramatic gestures",
+            "Scenes of conversion, martyrdom, or intense miracles (simplified)",
+            "Mythological figures in dramatic moments"
+        ],
+        "narrativeFocus": "Depict schematic human figures captured in moments of intense action, dramatic poses, or strong emotion (e.g., reaching, falling, twisting), rendered with bold, energetic outlines on a rock surface in a cave-art style. Focus on conveying dynamism and feeling through line and pose.",
+        "desiredEmotion": "High Drama, Intense Energy, Primal Emotion, Dynamic Movement",
+        "symbolismHints": [
+            "Use strong diagonal or swirling lines to suggest movement",
+            "Exaggerate poses and gestures to maximize dramatic effect",
+            "Depict figures clearly off-balance or mid-action",
+            "Employ overlapping figures to create a sense of dynamic depth/chaos"
+        ],
+        "references": [
+            "Caravaggio's paintings (concept of dramatic moments)",
+            "Bernini's sculptures (concept of figures in motion/ecstasy)",
+            "Rubens' paintings (concept of dynamic composition, energy)"
+        ]
+    },
+    "sceneContext": {
+        "lightingStyle": "Flat, indeterminate lighting, as appropriate for the intended Prehistoric style (lacking Baroque chiaroscuro).",
+        "cameraView": "Direct views emphasizing the dynamic poses and energy of the figures, mimicking the flatness of cave paintings.",
+        "settingSuggestion": "A rough, textured surface simulating a natural cave wall, reflecting the intended Prehistoric style."
+    },
+    "aiDirectives": {
+        "width": 1536,
+        "height": 1024,
+        "aspectRatio": "4:3",
+        "emphasize": [
+            "Strong, energetic outlines",
+            "Primal rendering style",
+            "Dynamic and dramatic poses",
+            "Sense of movement and intense emotion (conveyed through line/pose)",
+            "Cave wall texture simulation",
+            "Limited ochre and black color palette"
+        ],
+        "avoid": [
+            "Baroque realism or detailed anatomy",
+            "Chiaroscuro, tenebrism, or complex lighting effects",
+            "Rich textures (velvet, silks)",
+            "Deep illusionistic space or perspective",
+            "Smooth surfaces or refined brushwork",
+            "Complex color palettes or blending",
+            "Static or calm figures",
+            "1:1 aspect ratio"
+        ],
+        "styleStrength": 0.85,
+        "negativePromptHints": [
+            "photograph",
+            "3D render",
+            "realistic",
+            "perspective",
+            "detailed",
+            "Baroque painting",
+            "chiaroscuro",
+            "tenebrism",
+            "smooth background",
+            "complex colors",
+            "naturalism",
+            "calm pose",
+            "stable composition",
+            "rich fabric",
+            "serene"
+        ]
+    },
+    "styleDefinition": {
+        "origin": "Prehistoric Art (Global, primarily Upper Paleolithic cave art, c. 40,000 - 10,000 BCE)",
+        "visualCharacteristics": [
+            "Focus on animal figures (bison, horses, deer, mammoths), often depicted with surprising naturalism and vitality",
+            "Human figures less common and typically abstract, schematic, or stick-like (distinct from more detailed animal portrayals)",
+            "Use of strong contour lines to define forms",
+            "Handprints (positive prints or negative stencils) and geometric signs (dots, lines, symbols)",
+            "Frequent overlapping of figures, suggesting different time periods or lack of unified composition",
+            "Occasional use of natural rock formations integrated into the shape of the animal",
+            "General absence of backgrounds, ground lines, or consistent perspective"
+        ],
+        "techniques": [
+            "Simulation of painting/drawing on cave walls",
+            "Using natural earth pigments (ochres, charcoal, manganese) possibly mixed with binders",
+            "Application by blowing pigment, dabbing, drawing with pigment chunks/charcoal",
+            "Simulation of engraving or incising lines into rock surface"
+        ],
+        "mediumSimulation": "Cave wall painting simulation (using natural pigments and charcoal on rock surface)",
+        "colorPalette": {
+            "description": "Limited palette derived from natural mineral pigments: earth ochres, charcoal, and manganese dioxide. Colors typically applied flatly or with rudimentary shading.",
+            "keyColors": [
+                "Red Ochre",
+                "Yellow Ochre",
+                "Brown Ochre",
+                "Carbon Black / Manganese Black",
+                "White (Chalk/Kaolin - less common)"
+            ]
+        },
+        "textureEmphasis": "Rough, uneven texture inherent to the natural cave wall surface, often incorporated into the artwork. The paint/pigment itself may appear powdery or stained into the rock.",
+        "compositionStyle": "Figures often appear scattered, superimposed, or isolated across the cave surface without a clear compositional structure, ground line, or consistent scale. Arrangement seems opportunistic, utilizing wall contours rather than creating a unified scene.",
+        "references": [
+            "Lascaux Cave paintings (France)",
+            "Chauvet Cave paintings (France)",
+            "Altamira Cave paintings (Spain)",
+            "Hand stencils from El Castillo Cave (Spain)",
+            "Cosquer Cave (France)"
+        ]
+    }
+}

@@ -1,0 +1,5 @@
+Art Style:
+Apply the Dadaism style by embracing absurdity, irrationality, and chance. Construct the scene with intentional fragmentation, jarring juxtapositions, and a rejection of traditional aesthetic norms. Incorporate mixed media elements such as simulated collages, photomontages, or assemblages, using found imagery, random typography, or disparate materials. Allow randomness or deliberate anti-aesthetic choices to drive the composition. Colors should derive from the textures and tones of source materials like newsprint, sepia photographs, labels, and clashing random additions rather than following a harmonious palette.
+
+Scene & Technical Details:
+Render the work in a 4:3 aspect ratio (1536×1024 resolution) using flat, even lighting without directional shadows. Present the scene with a fragmented, chaotic structure that avoids conventional balance, perspective, or focal hierarchy. Simulate the texture of layered paper, torn materials, printed photographs, or rough assemblages. Encourage visual disruption, randomness, and playful anti-order while emphasizing the tactile feel of found and layered textures.

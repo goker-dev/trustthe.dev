@@ -1,0 +1,121 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://goker.art/schemas/echoneo-prompt.schema.json/instances/prehistoric-greek",
+    "$type": "echoneo-artwork-prompt/v1",
+    "artworkTitle": "Prehistoric Art depicted in Ancient Greek Art Style",
+    "conceptDefinition": {
+        "origin": "Prehistoric Art",
+        "coreThemes": [
+            "Survival",
+            "The Hunt",
+            "Ritual",
+            "Human relationship with large fauna",
+            "Primal energy"
+        ],
+        "keySubjects": [
+            "Simplified human figures (hunters)",
+            "Large animals (e.g., bison, aurochs, deer)",
+            "Spears or primitive hunting tools",
+            "Cave walls or rocky landscape elements (as subject matter)"
+        ],
+        "narrativeFocus": "Depict a group of simplified, active human figures engaged in hunting a large bison or similar prehistoric animal. Focus on the action and relationship between hunters and prey.",
+        "desiredEmotion": "A mix of ritualistic reverence, primal tension, and the importance of the hunt for survival.",
+        "symbolismHints": [
+            "Emphasize the size and power of the animal",
+            "Show coordination among hunters",
+            "Use repetitive patterns if suggesting ritual"
+        ],
+        "references": [
+            "Cave paintings of Lascaux",
+            "Altamira cave art depictions of bison"
+        ]
+    },
+    "styleDefinition": {
+        "origin": "Ancient Greek Art (Classical Period, emphasis on Red-Figure Vase Painting)",
+        "visualCharacteristics": [
+            "Idealized human figures with attention to anatomy and proportion",
+            "Figures depicted in profile or near-profile, often with dynamic poses",
+            "Emphasis on clear linework defining contours and internal details (musculature, drapery folds)",
+            "Figures reserved in the red-orange color of the clay against a black slip background",
+            "Naturalistic but idealized representation of humans, gods, and mythological scenes",
+            "Use of flowing drapery that reveals the form underneath",
+            "Attempts at foreshortening and conveying movement"
+        ],
+        "techniques": [
+            "Red-figure vase painting technique simulation",
+            "Precise brushwork using diluted slip for fine lines and details",
+            "Use of black slip for background and major lines",
+            "Figures reserved (left unpainted in background slip)"
+        ],
+        "mediumSimulation": "Painting on terracotta pottery (Attic Red-figure style)",
+        "colorPalette": {
+            "description": "Limited palette: dominant Terracotta Red/Orange figures against a glossy Black background. Details in fine black lines or golden-brown diluted slip. Occasional touches of added white or purple (use sparingly).",
+            "keyColors": [
+                "Terracotta Orange-Red",
+                "Glossy Black",
+                "Golden-Brown (lines)",
+                "White (accents)",
+                "Purple (accents)"
+            ]
+        },
+        "textureEmphasis": "Smooth, slightly glossy finish of fired pottery. Emphasis is on the clarity and precision of the painted lines rather than surface texture.",
+        "compositionStyle": "Balanced composition, often designed to fit the curved shape of a vase (e.g., amphora, kylix). Clear narrative depiction, figures typically arranged along a single ground line, sometimes with overlapping to suggest depth.",
+        "references": [
+            "Works by the Berlin Painter",
+            "Vases attributed to Douris",
+            "Euphronios Krater",
+            "Pan Painter vases"
+        ]
+    },
+    "sceneContext": {
+        "lightingStyle": "Neutral, even studio lighting that clearly illuminates the vase painting without casting strong shadows onto the surface. The focus is on the clarity of the linework and the contrast between the red figures and the black background.",
+        "cameraView": "Direct view focusing on the painted narrative or figures on the vase's surface. While acknowledging the pottery's curve, the view emphasizes the two-dimensional composition. Figures depicted are typically in profile or near-profile.",
+        "settingSuggestion": "Simulates the appearance of painted decoration on an Ancient Greek terracotta vase (e.g., amphora, kylix, krater). The primary focus is the red-figure artwork against the black slip. Background might be neutral or subtly suggest a display context."
+    },
+    "aiDirectives": {
+        "width": 1536,
+        "height": 1024,
+        "aspectRatio": "4:3",
+        "emphasize": [
+            "Terracotta red-orange figures",
+            "Glossy black slip background",
+            "Clear, precise black linework (contours, details, drapery)",
+            "Idealized Classical Greek anatomy and proportions",
+            "Figures predominantly in profile or near-profile",
+            "Dynamic and balanced poses suggesting movement",
+            "Flowing drapery that articulates the form beneath",
+            "Smooth terracotta pottery surface appearance",
+            "Composition adapted to the vase form"
+        ],
+        "avoid": [
+            "Volumetric shading, chiaroscuro, or cast shadows within the painting",
+            "Realistic linear or atmospheric perspective",
+            "Use of colors beyond the typical red-figure palette (red, black, limited accents)",
+            "Predominantly frontal poses for figures",
+            "Non-Classical figure styles (e.g., Roman verism, Byzantine elongation, Egyptian stiffness)",
+            "Detailed landscape or architectural backgrounds (use black slip)",
+            "Photorealism of the vase or scene",
+            "Visible brushstrokes suggesting paint on canvas or panel",
+            "3D rendering effects that add artificial depth or lighting"
+        ],
+        "styleStrength": 0.85,
+        "negativePromptHints": [
+            "shading",
+            "shadows",
+            "perspective",
+            "3D render",
+            "photograph",
+            "multiple colors",
+            "landscape background",
+            "Roman",
+            "Byzantine",
+            "medieval",
+            "Egyptian",
+            "abstract",
+            "painting on canvas",
+            "volumetric lighting",
+            "frontal view figure",
+            "white background"
+        ]
+    }
+}

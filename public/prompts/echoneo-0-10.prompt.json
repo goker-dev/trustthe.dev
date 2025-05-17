@@ -1,0 +1,125 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://goker.art/schemas/echoneo-prompt.schema.json/instances/prehistoric-rococo",
+    "$type": "echoneo-artwork-prompt/v1",
+    "artworkTitle": "Prehistoric Art depicted in Rococo Art Style",
+    "conceptDefinition": {
+        "origin": "Prehistoric Art",
+        "coreThemes": [
+            "Survival",
+            "The Hunt",
+            "Ritual",
+            "Human relationship with large fauna",
+            "Primal energy"
+        ],
+        "keySubjects": [
+            "Simplified human figures (hunters)",
+            "Large animals (e.g., bison, aurochs, deer)",
+            "Spears or primitive hunting tools",
+            "Cave walls or rocky landscape elements (as subject matter)"
+        ],
+        "narrativeFocus": "Depict a group of simplified, active human figures engaged in hunting a large bison or similar prehistoric animal. Focus on the action and relationship between hunters and prey.",
+        "desiredEmotion": "A mix of ritualistic reverence, primal tension, and the importance of the hunt for survival.",
+        "symbolismHints": [
+            "Emphasize the size and power of the animal",
+            "Show coordination among hunters",
+            "Use repetitive patterns if suggesting ritual"
+        ],
+        "references": [
+            "Cave paintings of Lascaux",
+            "Altamira cave art depictions of bison"
+        ]
+    },
+    "styleDefinition": {
+        "origin": "Rococo Art (Europe, primarily France, c. 1715 - late 18th Century AD)",
+        "visualCharacteristics": [
+            "Emphasis on lightness, elegance, grace, and intimacy",
+            "Intricate and ornate decoration featuring asymmetrical curves (S-curves, C-curves), scrolls, shell motifs ('rocaille'), and foliage",
+            "Playful, witty, often sentimental or frivolous themes (love, leisure, mythology, pastoral scenes, 'fêtes galantes')",
+            "Soft, sensual depiction of figures, often with porcelain-like skin",
+            "Delicate details and refined execution",
+            "Asymmetry is a key element in decoration and composition",
+            "A reaction against the formality and grandeur of the preceding Baroque style"
+        ],
+        "techniques": [
+            "Oil painting simulation with light, feathery, or delicate brushwork",
+            "Pastel simulation (capturing soft textures and colors)",
+            "Emphasis on smooth finishes and subtle modeling",
+            "Gilding simulation (for decorative accents)"
+        ],
+        "mediumSimulation": "Oil painting on canvas (or Pastel drawing, decorative stucco/giltwood)",
+        "colorPalette": {
+            "description": "Predominantly light, airy, and pastel color palette. Soft pinks, light blues, mint greens, creamy yellows, ivory, white, and accents of gold or silver. Colors are often pearlescent or shimmering, avoiding strong contrasts and deep shadows.",
+            "keyColors": [
+                "Pastel Pink (Rose)",
+                "Light Blue (Sky Blue)",
+                "Mint Green / Celadon",
+                "Creamy Yellow",
+                "Ivory / White",
+                "Gold (accents)",
+                "Silver (accents)"
+            ]
+        },
+        "textureEmphasis": "Smooth, refined surfaces. Emphasis on simulating soft, luxurious textures like silk, satin, porcelain skin, and delicate foliage. Brushwork is often light, feathery, and blended.",
+        "compositionStyle": "Often asymmetrical, using fluid S-curves and C-curves. Light, graceful, and dynamic arrangements without Baroque heaviness. Can be highly decorative and intricate but maintains an overall sense of lightness and airiness. Often suited for intimate settings.",
+        "references": [
+            "Antoine Watteau ('Pilgrimage to Cythera', 'Gersaint's Shopsign')",
+            "François Boucher (Portraits of Madame de Pompadour, mythological scenes)",
+            "Jean-Honoré Fragonard ('The Swing', 'The Progress of Love' series)",
+            "Rosalba Carriera (Pastel portraits)",
+            "Interior decorations of the Hôtel de Soubise, Paris",
+            "Amalienburg hunting lodge, Nymphenburg Palace, Munich"
+        ]
+    },
+    "sceneContext": {
+        "lightingStyle": "Soft, diffused, and luminous lighting, avoiding the dramatic shadows and harsh contrasts of the Baroque. Creates a light, airy, cheerful, or intimate atmosphere that enhances the pastel palette and delicate forms.",
+        "cameraView": "Intimate viewpoints, often medium shots or compositions designed as part of a decorative scheme. Angles tend to emphasize graceful curves, asymmetry, and playful interactions rather than grandeur or stark drama.",
+        "settingSuggestion": "Elegant and intimate settings are typical: ornately decorated domestic interiors (salons, boudoirs with mirrors, giltwood, boiserie, painted panels), idealized parklands or gardens for 'fêtes galantes', scenes of leisure, or settings for lighthearted mythological or amorous themes."
+    },
+    "aiDirectives": {
+        "width": 1536,
+        "height": 1024,
+        "aspectRatio": "4:3",
+        "emphasize": [
+            "Light, airy pastel color palette (pinks, light blues, creams, greens, yellows)",
+            "Delicate, feathery, or blended brushwork (oil or pastel simulation)",
+            "Asymmetrical compositions featuring S-curves, C-curves, scrolls ('rocaille')",
+            "Elegant, graceful, often slender figures with soft features",
+            "Playful, sentimental, amorous, or leisurely themes ('fêtes galantes')",
+            "Intricate, ornate, and delicate decoration and details",
+            "Soft, diffused, luminous lighting (avoiding strong shadows)",
+            "Smooth, refined textures (silk, satin, porcelain skin)",
+            "Overall feeling of lightness, grace, charm, and intimacy"
+        ],
+        "avoid": [
+            "Strong chiaroscuro, tenebrism, or dramatic dark shadows (Baroque)",
+            "Deep, intense, highly saturated, or dark color palettes (Baroque)",
+            "Intense drama, suffering, violence, or strong negative emotions",
+            "Heavy, monumental, solid, or overly muscular forms",
+            "Rigid symmetry, straight lines, severe formality",
+            "Gritty realism or depiction of poverty/hardship",
+            "Simple, austere, undecorated, or rustic settings",
+            "Visible heavy impasto or rough brushwork"
+        ],
+        "styleStrength": 0.85,
+        "negativePromptHints": [
+            "dark shadows",
+            "dramatic lighting",
+            "Baroque",
+            "tenebrism",
+            "intense emotion",
+            "suffering",
+            "heavy",
+            "monumental",
+            "symmetrical",
+            "deep colors",
+            "saturated colors",
+            "simple",
+            "austere",
+            "realistic grit",
+            "minimalist",
+            "strong contrast",
+            "dark background"
+        ]
+    }
+}

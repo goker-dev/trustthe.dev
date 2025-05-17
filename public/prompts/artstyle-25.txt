@@ -1,0 +1,5 @@
+Art Style:
+Apply the Conceptual Art style, prioritizing the idea or concept over traditional aesthetic or material qualities. Visual form should be secondary and functional, appearing dematerialized or minimal. Manifestations can include text-based works (instructions, definitions, statements), documentary-style photography (often black and white), diagrams, maps, or process documentation. Reject traditional notions of skill, beauty, and handcrafted objects. Focus instead on intellectual clarity, system-based logic, and the use of language or predefined frameworks.
+
+Scene & Technical Details:
+Render the work in a 4:3 aspect ratio (1536×1024 resolution) using flat, even, neutral lighting with no discernible source or shadows. Maintain a strict, straight-on camera view, avoiding dynamic angles or compositional flourishes. Surface and material textures should be minimal and functional, such as the smoothness of a print or the flatness of typed text. Visuals should emphasize clarity, information structure, or conceptual austerity, avoiding expressive brushstrokes, dramatic color usage, or aesthetic embellishment.

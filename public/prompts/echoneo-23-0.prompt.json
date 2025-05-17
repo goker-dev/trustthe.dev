@@ -1,0 +1,120 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://goker.art/schemas/echoneo-prompt.schema.json/instances/pop-art-prehistoric",
+    "$type": "echoneo-artwork-prompt/v1",
+    "artworkTitle": "Pop Art depicted in Prehistoric Art Style",
+    "conceptDefinition": {
+        "origin": "Pop Art (Britain/USA, mid-1950s - 1960s AD)",
+        "coreThemes": [
+            "Popular Culture / Mass Media",
+            "Consumerism / Everyday Objects",
+            "Iconic Imagery",
+            "Repetition (conceptual)",
+            "Mechanical Reproduction (conceptual)",
+            "Boldness / Directness"
+        ],
+        "keySubjects": [
+            "Simplified consumer product shapes (can, bottle, box)",
+            "Schematic celebrity face/icon",
+            "Basic logo shapes (simplified)",
+            "Comic book elements (speech bubble shape, simplified action lines)",
+            "Repeated simple icons"
+        ],
+        "narrativeFocus": "Depict a single, highly simplified but recognizable iconic shape representing a mass-produced consumer object (like a can or bottle) or celebrity face, rendered with a very bold, clear outline on a rock surface in a cave-art style. Alternatively, show this simple shape repeated several times in a grid or row. Focus on the direct, iconic presentation.",
+        "desiredEmotion": "Iconic, Direct, Bold, Recognizable, Stark",
+        "symbolismHints": [
+            "Use exceptionally bold and clear outlines",
+            "Simplify the subject to its most basic, iconic form",
+            "Present the subject frontally and centrally, or use simple repetition",
+            "Avoid extraneous details or background elements"
+        ],
+        "references": [
+            "Andy Warhol's 'Campbell's Soup Cans' / 'Marilyn' series (concept of iconic subject/repetition)",
+            "Roy Lichtenstein's comic panels (concept of using mass media source imagery)",
+            "Claes Oldenburg's sculptures (concept of focusing on everyday objects)"
+        ]
+    },
+    "sceneContext": {
+        "lightingStyle": "Flat, indeterminate lighting, as appropriate for the intended Prehistoric style.",
+        "cameraView": "Direct, frontal view emphasizing the iconic subject, mimicking the flatness of cave paintings.",
+        "settingSuggestion": "A rough, textured surface simulating a natural cave wall, reflecting the intended Prehistoric style."
+    },
+    "aiDirectives": {
+        "width": 1536,
+        "height": 1024,
+        "aspectRatio": "4:3",
+        "emphasize": [
+            "Extremely bold, clear outlines",
+            "Primal rendering style",
+            "Simplified, iconic shape (object/face)",
+            "Direct, frontal presentation",
+            "Repetition (optional)",
+            "Cave wall texture simulation",
+            "Limited ochre and black color palette",
+            "1:1 aspect ratio"
+        ],
+        "avoid": [
+            "Pop Art's typical bright colors or commercial printing techniques (silkscreen, dots)",
+            "Subtlety, ambiguity, or complex compositions",
+            "Expressive brushwork or painterly qualities",
+            "Realism, detail, perspective, or shading",
+            "Abstract Expressionist gestures"
+        ],
+        "styleStrength": 0.85,
+        "negativePromptHints": [
+            "photograph",
+            "3D render",
+            "realistic",
+            "perspective",
+            "detailed",
+            "Pop Art painting (with color/techniques)",
+            "silkscreen",
+            "Ben-Day dots",
+            "complex colors",
+            "smooth background",
+            "expressive brushwork",
+            "detailed object",
+            "subtle outline",
+            "abstract",
+            "painterly"
+        ]
+    },
+    "styleDefinition": {
+        "origin": "Prehistoric Art (Global, primarily Upper Paleolithic cave art, c. 40,000 - 10,000 BCE)",
+        "visualCharacteristics": [
+            "Focus on animal figures (bison, horses, deer, mammoths), often depicted with surprising naturalism and vitality",
+            "Human figures less common and typically abstract, schematic, or stick-like (distinct from more detailed animal portrayals)",
+            "Use of strong contour lines to define forms",
+            "Handprints (positive prints or negative stencils) and geometric signs (dots, lines, symbols)",
+            "Frequent overlapping of figures, suggesting different time periods or lack of unified composition",
+            "Occasional use of natural rock formations integrated into the shape of the animal",
+            "General absence of backgrounds, ground lines, or consistent perspective"
+        ],
+        "techniques": [
+            "Simulation of painting/drawing on cave walls",
+            "Using natural earth pigments (ochres, charcoal, manganese) possibly mixed with binders",
+            "Application by blowing pigment, dabbing, drawing with pigment chunks/charcoal",
+            "Simulation of engraving or incising lines into rock surface"
+        ],
+        "mediumSimulation": "Cave wall painting simulation (using natural pigments and charcoal on rock surface)",
+        "colorPalette": {
+            "description": "Limited palette derived from natural mineral pigments: earth ochres, charcoal, and manganese dioxide. Colors typically applied flatly or with rudimentary shading.",
+            "keyColors": [
+                "Red Ochre",
+                "Yellow Ochre",
+                "Brown Ochre",
+                "Carbon Black / Manganese Black",
+                "White (Chalk/Kaolin - less common)"
+            ]
+        },
+        "textureEmphasis": "Rough, uneven texture inherent to the natural cave wall surface, often incorporated into the artwork. The paint/pigment itself may appear powdery or stained into the rock.",
+        "compositionStyle": "Figures often appear scattered, superimposed, or isolated across the cave surface without a clear compositional structure, ground line, or consistent scale. Arrangement seems opportunistic, utilizing wall contours rather than creating a unified scene.",
+        "references": [
+            "Lascaux Cave paintings (France)",
+            "Chauvet Cave paintings (France)",
+            "Altamira Cave paintings (Spain)",
+            "Hand stencils from El Castillo Cave (Spain)",
+            "Cosquer Cave (France)"
+        ]
+    }
+}

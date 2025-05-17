@@ -1,0 +1,113 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://goker.art/schemas/echoneo-prompt.schema.json/instances/prehistoric-egyptian-01",
+    "$type": "echoneo-artwork-prompt/v1",
+    "artworkTitle": "Prehistoric Art depicted in Ancient Egyptian Style",
+    "conceptDefinition": {
+        "origin": "Prehistoric Art",
+        "coreThemes": [
+            "Survival",
+            "The Hunt",
+            "Ritual",
+            "Human relationship with large fauna",
+            "Primal energy"
+        ],
+        "keySubjects": [
+            "Simplified human figures (hunters)",
+            "Large animals (e.g., bison, aurochs, deer)",
+            "Spears or primitive hunting tools",
+            "Cave walls or rocky landscape elements (as subject matter)"
+        ],
+        "narrativeFocus": "Depict a group of simplified, active human figures engaged in hunting a large bison or similar prehistoric animal. Focus on the action and relationship between hunters and prey.",
+        "desiredEmotion": "A mix of ritualistic reverence, primal tension, and the importance of the hunt for survival.",
+        "symbolismHints": [
+            "Emphasize the size and power of the animal",
+            "Show coordination among hunters",
+            "Use repetitive patterns if suggesting ritual"
+        ],
+        "references": [
+            "Cave paintings of Lascaux",
+            "Altamira cave art depictions of bison"
+        ]
+    },
+    "styleDefinition": {
+        "origin": "Ancient Egyptian Art",
+        "visualCharacteristics": [
+            "Figures shown in composite view (head profile, eye frontal, torso frontal, limbs profile)",
+            "Hierarchical scale (important figures larger)",
+            "Strong, clear outlines around figures and objects",
+            "Flat areas of solid color, minimal to no shading or blending",
+            "Figures arranged formally, often standing or walking on a baseline",
+            "Symbolic rather than purely realistic representation",
+            "Use of registers (horizontal bands) to organize narrative scenes"
+        ],
+        "techniques": [
+            "Fresco secco simulation (painting on dry plaster) or painted relief carving",
+            "Use of registers to structure composition",
+            "Integration of hieroglyphs possible (though not always present in scenes)",
+            "Precise linework for outlines and details"
+        ],
+        "mediumSimulation": "Painting or low-relief carving on a flat stone surface (tomb wall, temple wall) or papyrus",
+        "colorPalette": {
+            "description": "Limited palette based on natural earth and mineral pigments: Red Ochre, Yellow Ochre, Carbon Black, Gypsum White, Egyptian Blue, Malachite Green. Colors applied flatly within outlined areas.",
+            "keyColors": [
+                "Red Ochre",
+                "Yellow Ochre",
+                "Carbon Black",
+                "Gypsum White",
+                "Egyptian Blue",
+                "Malachite Green"
+            ]
+        },
+        "textureEmphasis": "Smooth, flat, matte finish simulating painted plaster, stone, or papyrus. The clarity of outlines and flat color fields is paramount.",
+        "compositionStyle": "Ordered and clear composition, often utilizing horizontal registers. Figures typically aligned on baselines, minimizing overlap to ensure clarity. Lack of realistic depth or perspective; space is conceptual.",
+        "references": [
+            "Tomb of Nakht paintings",
+            "Temple reliefs at Karnak and Luxor",
+            "Hunting scenes from the Tomb of Nebamun",
+            "Book of the Dead papyri"
+        ]
+    },
+    "sceneContext": {
+        "lightingStyle": "Flat, even lighting with no discernible source or depicted shadows, reflecting the style's lack of volumetric rendering.",
+        "cameraView": "Direct, straight-on view emphasizing the flat, two-dimensional nature of the composition. Figures depicted using the characteristic composite view.",
+        "settingSuggestion": "Simulates a decorated surface from Ancient Egypt, such as a tomb wall, temple wall, or papyrus scroll. May include stylized environmental elements (papyrus reeds, water lines) or framing with geometric Egyptian borders or patterns."
+    },
+    "aiDirectives": {
+        "width": 1536,
+        "height": 1024,
+        "aspectRatio": "4:3",
+        "emphasize": [
+            "Composite view for figures (profile head/limbs, frontal eye/torso)",
+            "Strong, clear outlines",
+            "Flat application of solid colors (no shading)",
+            "Hierarchical scale",
+            "Formal, often stiff poses and arrangements on baselines",
+            "Use of registers (horizontal bands)",
+            "Limited, characteristic Egyptian color palette"
+        ],
+        "avoid": [
+            "Realistic perspective (linear or atmospheric)",
+            "Volumetric shading, chiaroscuro, or blending of colors",
+            "Dynamic, fluid, or casual poses",
+            "Realistic anatomy or foreshortening",
+            "Visible brushstrokes suggesting other painting techniques",
+            "Photorealism or 3D rendering effects",
+            "Deep, detailed backgrounds (use flat color or simple patterns)"
+        ],
+        "styleStrength": 0.85,
+        "negativePromptHints": [
+            "photorealistic",
+            "3D render",
+            "depth",
+            "perspective",
+            "shadows",
+            "shading",
+            "impressionistic",
+            "sketchy",
+            "realistic anatomy",
+            "dynamic pose",
+            "blending"
+        ]
+    }
+}

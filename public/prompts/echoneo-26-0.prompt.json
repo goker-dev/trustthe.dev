@@ -1,0 +1,121 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://goker.art/schemas/echoneo-prompt.schema.json/instances/postmodernism-prehistoric",
+    "$type": "echoneo-artwork-prompt/v1",
+    "artworkTitle": "Postmodernism Art depicted in Prehistoric Art Style",
+    "conceptDefinition": {
+        "origin": "Postmodernism (International, c. late 1960s/70s - late 20th C AD)",
+        "coreThemes": [
+            "Appropriation / Pastiche (conceptual)",
+            "Irony / Playfulness",
+            "Eclecticism / Hybridity",
+            "Deconstruction",
+            "Skepticism towards Grand Narratives",
+            "Surface / Simulation (conceptual)"
+        ],
+        "keySubjects": [
+            "Juxtaposed schematic figures/symbols from different 'sources'",
+            "Fragmented simple forms",
+            "Mixing abstract marks with simple representational shapes",
+            "Schematic 'copies' of other simple drawings",
+            "Deliberately anachronistic or illogical combinations",
+            "Simplified 'kitsch' or pop culture icons"
+        ],
+        "narrativeFocus": "Depict an eclectic and fragmented collection of simple schematic shapes, figures, or marks drawn in slightly different primitive manners (e.g., some stick-like, some geometric, some like animal drawings) juxtaposed or layered illogically across a rock surface in a cave-art style. The overall effect should suggest an ironic or playful combination of different 'primitive' visual languages, lacking unity.",
+        "desiredEmotion": "Ironic, Eclectic, Fragmented, Playful Disruption, Ambiguous",
+        "symbolismHints": [
+            "Deliberately juxtapose unrelated simple forms or 'styles' within the primitive rendering",
+            "Use fragmentation and layering abruptly",
+            "Avoid creating a coherent scene or single visual style",
+            "Hint at 'copying' by repeating a simple shape with slight, crude variations"
+        ],
+        "references": [
+            "David Salle's paintings (concept of layering disparate styles/images)",
+            "Sherrie Levine's work (concept of appropriation)",
+            "Jeff Koons' work (concept of using kitsch/pop sources)"
+        ]
+    },
+    "sceneContext": {
+        "lightingStyle": "Flat, indeterminate lighting, as appropriate for the intended Prehistoric style.",
+        "cameraView": "Direct, perhaps fragmented or layered view emphasizing the eclectic mix and lack of unity, mimicking the flatness of cave paintings.",
+        "settingSuggestion": "A rough, textured surface simulating a natural cave wall, reflecting the intended Prehistoric style."
+    },
+    "aiDirectives": {
+        "width": 1536,
+        "height": 1024,
+        "aspectRatio": "4:3",
+        "emphasize": [
+            "Strong outlines (potentially varied in crudeness)",
+            "Primal rendering style",
+            "Juxtaposition of disparate simple elements/styles",
+            "Fragmentation and layering",
+            "Sense of irony or eclecticism",
+            "Cave wall texture simulation",
+            "Limited ochre and black color palette"
+        ],
+        "avoid": [
+            "A single, unified visual style or composition",
+            "Visual coherence, harmony, or balance",
+            "Smooth transitions between elements",
+            "Deep meaning (unless depicted ironically)",
+            "Modernist notions of purity or originality",
+            "Realistic representation",
+            "1:1 aspect ratio"
+        ],
+        "styleStrength": 0.85,
+        "negativePromptHints": [
+            "photograph",
+            "3D render",
+            "realistic",
+            "perspective",
+            "detailed",
+            "Postmodern art (actual examples)",
+            "unified style",
+            "harmonious composition",
+            "original forms",
+            "smooth transitions",
+            "deep meaning",
+            "seriousness (non-ironic)",
+            "Modernism",
+            "coherent"
+        ]
+    },
+    "styleDefinition": {
+        "origin": "Prehistoric Art (Global, primarily Upper Paleolithic cave art, c. 40,000 - 10,000 BCE)",
+        "visualCharacteristics": [
+            "Focus on animal figures (bison, horses, deer, mammoths), often depicted with surprising naturalism and vitality",
+            "Human figures less common and typically abstract, schematic, or stick-like (distinct from more detailed animal portrayals)",
+            "Use of strong contour lines to define forms",
+            "Handprints (positive prints or negative stencils) and geometric signs (dots, lines, symbols)",
+            "Frequent overlapping of figures, suggesting different time periods or lack of unified composition",
+            "Occasional use of natural rock formations integrated into the shape of the animal",
+            "General absence of backgrounds, ground lines, or consistent perspective"
+        ],
+        "techniques": [
+            "Simulation of painting/drawing on cave walls",
+            "Using natural earth pigments (ochres, charcoal, manganese) possibly mixed with binders",
+            "Application by blowing pigment, dabbing, drawing with pigment chunks/charcoal",
+            "Simulation of engraving or incising lines into rock surface"
+        ],
+        "mediumSimulation": "Cave wall painting simulation (using natural pigments and charcoal on rock surface)",
+        "colorPalette": {
+            "description": "Limited palette derived from natural mineral pigments: earth ochres, charcoal, and manganese dioxide. Colors typically applied flatly or with rudimentary shading.",
+            "keyColors": [
+                "Red Ochre",
+                "Yellow Ochre",
+                "Brown Ochre",
+                "Carbon Black / Manganese Black",
+                "White (Chalk/Kaolin - less common)"
+            ]
+        },
+        "textureEmphasis": "Rough, uneven texture inherent to the natural cave wall surface, often incorporated into the artwork. The paint/pigment itself may appear powdery or stained into the rock.",
+        "compositionStyle": "Figures often appear scattered, superimposed, or isolated across the cave surface without a clear compositional structure, ground line, or consistent scale. Arrangement seems opportunistic, utilizing wall contours rather than creating a unified scene.",
+        "references": [
+            "Lascaux Cave paintings (France)",
+            "Chauvet Cave paintings (France)",
+            "Altamira Cave paintings (Spain)",
+            "Hand stencils from El Castillo Cave (Spain)",
+            "Cosquer Cave (France)"
+        ]
+    }
+}

@@ -1,0 +1,84 @@
+{
+  "name": "next.goker.art",
+  "version": "1.0.2",
+  "private": true,
+  "scripts": {
+    "prepare": "husky",
+    "dev": "next dev --turbopack --port 4010",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint --fix",
+    "codegen": "node openapi-codegen.js"
+  },
+  "dependencies": {
+    "@hey-api/client-fetch": "^0.10.0",
+    "@markdoc/markdoc": "^0.5.1",
+    "@next/third-parties": "^15.2.4",
+    "@radix-ui/react-avatar": "^1.1.4",
+    "@radix-ui/react-dialog": "^1.1.7",
+    "@radix-ui/react-label": "^2.1.3",
+    "@radix-ui/react-popover": "^1.1.13",
+    "@radix-ui/react-scroll-area": "^1.2.4",
+    "@radix-ui/react-slider": "^1.3.4",
+    "@radix-ui/react-slot": "^1.1.2",
+    "@radix-ui/react-tabs": "^1.1.4",
+    "@radix-ui/react-tooltip": "^1.1.8",
+    "@types/ws": "^8.18.1",
+    "@vercel/analytics": "^1.5.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "date-fns": "^4.1.0",
+    "lucide-react": "^0.487.0",
+    "next": "^15.2.4",
+    "next-themes": "^0.4.6",
+    "prism-react-renderer": "^2.4.1",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-intersection-observer": "^9.16.0",
+    "reading-time": "^1.5.0",
+    "schema-dts": "^1.1.5",
+    "sharp": "^0.34.1",
+    "socket.io-client": "^4.8.1",
+    "sonner": "^2.0.3",
+    "tailwind-merge": "^3.2.0",
+    "tailwindcss-animate": "^1.0.7",
+    "uuidv4": "^6.2.13",
+    "ws": "^8.18.1"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.3.1",
+    "@hey-api/openapi-ts": "^0.66.3",
+    "@tailwindcss/postcss": "^4.1.3",
+    "@types/node": "^22.14.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.1",
+    "csv-parse": "^5.6.0",
+    "csv-stringify": "^6.5.2",
+    "eslint": "^9.24.0",
+    "eslint-config-next": "15.1.7",
+    "eslint-config-prettier": "^10.1.2",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-prettier": "^5.2.6",
+    "eslint-plugin-tailwindcss": "^3.18.0",
+    "gray-matter": "^4.0.3",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.5.1",
+    "postcss": "^8.5.3",
+    "prettier": "^3.5.3",
+    "prettier-plugin-tailwindcss": "^0.6.11",
+    "tailwindcss": "^4.1.3",
+    "tw-animate-css": "^1.2.5",
+    "typescript": "^5.8.3",
+    "uuid": "^11.1.0"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "sharp"
+    ]
+  },
+  "lint-staged": {
+    "*.{js,ts,tsx,jsx}": [
+      "eslint --fix"
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+Art Style:
+Apply the Minimalism style, emphasizing extreme simplicity of form through basic geometric shapes such as cubes, squares, lines, and grids. Maintain a non-representational, non-referential, and objective aesthetic. Focus on industrial materials (like polished steel, plexiglass, raw wood) or monochromatic geometric painting with precise, flat application. Remove any visible traces of the artist's hand, ensuring an impersonal and fabricated appearance. Use repetition, serial structures, and systematic arrangements without expressive gesture, ornamentation, or complex compositions.
+
+Scene & Technical Details:
+Render the artwork in a 4:3 aspect ratio (1536×1024 resolution) using flat, bright, and even lighting with no discernible shadows. Maintain a strict, straight-on camera view, emphasizing the physical presence, geometry, and materiality of the forms. Avoid traditional depth, realistic perspective, dynamic poses, or textured brushwork. Surfaces should appear industrially fabricated — smooth, uniform, and devoid of expressive marks — highlighting symmetry, seriality, and simplicity within the overall composition.

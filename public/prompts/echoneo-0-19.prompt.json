@@ -1,0 +1,110 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://goker.art/schemas/echoneo-prompt.schema.json/instances/prehistoric-futurism",
+    "$type": "echoneo-artwork-prompt/v1",
+    "artworkTitle": "Prehistoric Art depicted in Futurism Art Style",
+    "conceptDefinition": {
+        "origin": "Prehistoric Art",
+        "coreThemes": [
+            "Survival",
+            "The Hunt",
+            "Ritual",
+            "Human relationship with large fauna",
+            "Primal energy"
+        ],
+        "keySubjects": [
+            "Simplified human figures (hunters)",
+            "Large animals (e.g., bison, aurochs, deer)",
+            "Spears or primitive hunting tools",
+            "Cave walls or rocky landscape elements (as subject matter)"
+        ],
+        "narrativeFocus": "Depict a group of simplified, active human figures engaged in hunting a large bison or similar prehistoric animal. Focus on the action and relationship between hunters and prey.",
+        "desiredEmotion": "A mix of ritualistic reverence, primal tension, and the importance of the hunt for survival.",
+        "symbolismHints": [
+            "Emphasize the size and power of the animal",
+            "Show coordination among hunters",
+            "Use repetitive patterns if suggesting ritual"
+        ],
+        "references": [
+            "Cave paintings of Lascaux",
+            "Altamira cave art depictions of bison"
+        ]
+    },
+    "styleDefinition": {
+        "origin": "Futurism (Italy, c. 1909 - 1916 AD, with later developments)",
+        "visualCharacteristics": [
+            "Celebration of dynamism, speed, energy, technology, machines, and modern urban life",
+            "Depiction of objects in motion, often showing multiple sequential stages simultaneously ('dynamism')",
+            "Fragmentation of forms, similar to Cubism, but used to express movement and energy",
+            "Use of 'lines of force' to suggest the energy and movement extending from objects",
+            "Blurred, repeated, or radiating lines to convey speed and vibration",
+            "Interpenetration of objects with their surroundings",
+            "Glorification of the machine age (cars, trains, industry)",
+            "Rejection of traditional artistic values and institutions"
+        ],
+        "techniques": [
+            "Oil painting simulation capturing speed and fractured movement",
+            "Influence from Divisionism/Pointillism (early phase) for vibrant color and light effects",
+            "Adoption of Cubist fragmentation adapted to show motion",
+            "Repetition of forms or outlines",
+            "Use of energetic, directional brushstrokes"
+        ],
+        "mediumSimulation": "Oil painting on canvas",
+        "colorPalette": {
+            "description": "Often utilizes bright, vibrant, high-key, and dynamic colors to enhance the sense of speed, energy, and excitement. Colors influenced by Divisionism (broken color) and used boldly. Strong contrasts contribute to the overall dynamism.",
+            "keyColors": [
+                "Vibrant Reds",
+                "Bright Oranges",
+                "Electric Yellows",
+                "Strong Blues",
+                "Dynamic Greens",
+                "Contrasting Whites / Blacks / Darks"
+            ]
+        },
+        "textureEmphasis": "Brushwork is often dynamic, visible, and energetic, contributing to the feeling of motion and speed. Texture can arise from broken color (Divisionist influence) or the sharp edges of fragmented Cubist-like planes.",
+        "compositionStyle": "Highly dynamic compositions characterized by diagonal lines, repetition of forms, fragmentation, and the interpenetration of objects and space. Aims to convey simultaneous sensations, speed, and the chaotic energy of modern life.",
+        "references": [
+            "Umberto Boccioni ('The City Rises', 'Unique Forms of Continuity in Space' - sculpture)",
+            "Giacomo Balla ('Dynamism of a Dog on a Leash', 'Abstract Speed + Sound')",
+            "Carlo Carrà ('The Funeral of the Anarchist Galli')",
+            "Gino Severini ('Dynamic Hieroglyphic of the Bal Tabarin')",
+            "Luigi Russolo ('The Revolt')"
+        ]
+    },
+    "sceneContext": {
+        "lightingStyle": "Flat, even, bright lighting with no discernible source or shadows, typical of Egyptian art.",
+        "cameraView": "Strict profile or composite view, straight-on perspective, avoiding complex angles.",
+        "settingSuggestion": "A stylized representation of a cave interior or outdoor landscape, framed perhaps with simple geometric Egyptian borders or patterns."
+    },
+    "aiDirectives": {
+        "width": 1536,
+        "height": 1024,
+        "aspectRatio": "4:3",
+        "emphasize": [
+            "Composite view of figures",
+            "Strong outlines",
+            "Flat color application",
+            "Hierarchical scale (if applicable)",
+            "Formal arrangement of figures"
+        ],
+        "avoid": [
+            "Realistic perspective",
+            "Atmospheric depth",
+            "Shading and blending of colors",
+            "Dynamic, fluid poses (use stiff Egyptian poses)",
+            "Realistic anatomy",
+            "Visible brushstrokes",
+            "1:1 aspect ratio"
+        ],
+        "styleStrength": 0.85,
+        "negativePromptHints": [
+            "photorealistic",
+            "3D render",
+            "depth",
+            "perspective",
+            "shadows",
+            "impressionistic",
+            "sketchy"
+        ]
+    }
+}

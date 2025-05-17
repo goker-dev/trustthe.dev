@@ -1,0 +1,204 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://goker.art/schemas/echoneo-prompt.schema.json",
+    "$type": "echoneo-artwork-prompt/v1",
+    "title": "Echoneo Artwork Prompt Schema v1",
+    "description": "JSON schema for defining the prompt instructions for a single AI-generated artwork, clearly separating its core concept from its visual style and technique.",
+    "type": "object",
+    "properties": {
+        "$schema": {
+            "type": "string",
+            "format": "uri",
+            "description": "Link to this schema definition."
+        },
+        "$type": {
+            "type": "string",
+            "const": "echoneo-artwork-prompt/v1",
+            "description": "The type and version of this prompt schema."
+        },
+        "artworkTitle": {
+            "type": "string",
+            "description": "The intended title for this specific artwork."
+        },
+        "conceptDefinition": {
+            "type": "object",
+            "description": "PART 1: Defines WHAT the artwork is about - its core ideas, subjects, narrative, and feeling.",
+            "properties": {
+                "origin": {
+                    "type": "string",
+                    "description": "Name or description of where the core concept idea comes from (e.g., 'Prehistoric Art', 'Myth of Icarus', 'Personal Dream')."
+                },
+                "coreThemes": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    },
+                    "minItems": 1,
+                    "description": "List the main conceptual ideas or themes (e.g., 'Loneliness', 'Nature's Power', 'Technological Anxiety', 'Celebration')."
+                },
+                "keySubjects": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    },
+                    "minItems": 1,
+                    "description": "List the main elements or figures to be depicted (e.g., 'Solitary figure', 'Stormy sea', 'Glowing circuits', 'Dancing couple')."
+                },
+                "narrativeFocus": {
+                    "type": "string",
+                    "description": "Describe the scene, action, or story the artwork should convey."
+                },
+                "desiredEmotion": {
+                    "type": "string",
+                    "description": "The primary emotional tone the artwork should evoke (e.g., 'Melancholy', 'Awe', 'Excitement', 'Peace')."
+                },
+                "symbolismHints": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    },
+                    "description": "(Optional) Suggest symbols or visual metaphors to include related to the concept."
+                },
+                "references": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    },
+                    "description": "Any other reference note (e.g., 'Study for Series X', 'Based on poem Y')."
+                }
+            },
+            "required": [
+                "origin",
+                "coreThemes",
+                "keySubjects",
+                "narrativeFocus",
+                "desiredEmotion"
+            ]
+        },
+        "styleDefinition": {
+            "type": "object",
+            "description": "PART 2: Defines HOW the artwork should look - its visual style, techniques, medium, colors, and composition approach.",
+            "properties": {
+                "origin": {
+                    "type": "string",
+                    "description": "Name or description of where the core concept idea comes from (e.g., 'Prehistoric Art', 'Myth of Icarus', 'Personal Dream')."
+                },
+                "visualCharacteristics": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    },
+                    "minItems": 1,
+                    "description": "List key visual descriptors of the desired style (e.g., 'Painterly brushstrokes', 'Clean vector lines', 'Gritty realism', 'Abstract geometric shapes', 'Lush ornamentation')."
+                },
+                "techniques": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    },
+                    "minItems": 1,
+                    "description": "List specific artistic techniques to emulate (e.g., 'Impasto', 'Cross-hatching', 'Flat color blocking', 'Photobashing elements', 'Glazing')."
+                },
+                "mediumSimulation": {
+                    "type": "string",
+                    "description": "Specify the art medium the AI should simulate (e.g., 'Oil painting', 'Watercolor sketch', 'Charcoal drawing', 'Digital illustration', 'Clay sculpture')."
+                },
+                "colorPalette": {
+                    "type": "object",
+                    "properties": {
+                        "description": {
+                            "type": "string",
+                            "description": "Describe the overall color approach (e.g., 'Warm earth tones', 'Monochromatic blue scale', 'High-contrast neon', 'Pastel and muted')."
+                        },
+                        "keyColors": {
+                            "type": "array",
+                            "items": {
+                                "type": "string"
+                            },
+                            "description": "(Optional) Suggest specific dominant or accent colors."
+                        }
+                    },
+                    "required": [
+                        "description"
+                    ]
+                },
+                "textureEmphasis": {
+                    "type": "string",
+                    "description": "Describe the desired surface texture feel (e.g., 'Rough canvas texture', 'Smooth metallic sheen', 'Soft fabric feel', 'Aged paper')."
+                },
+                "compositionStyle": {
+                    "type": "string",
+                    "description": "Describe the overall compositional approach (e.g., 'Rule of thirds', 'Symmetrical balance', 'Dynamic diagonal lines', 'Central focus', 'Minimalist')."
+                },
+                "references": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    },
+                    "description": "Any other reference note (e.g., 'Study for Series X', 'Based on poem Y')."
+                }
+            },
+            "required": [
+                "visualCharacteristics",
+                "techniques",
+                "mediumSimulation",
+                "colorPalette",
+                "textureEmphasis",
+                "compositionStyle"
+            ]
+        },
+        "aiDirectives": {
+            "type": "object",
+            "description": "(Recommended) Specific fine-tuning instructions for the AI generator.",
+            "properties": {
+                "width": {
+                    "type": "number",
+                    "description": "The width of the image to generate."
+                },
+                "height": {
+                    "type": "number",
+                    "description": "The height of the image to generate."
+                },
+                "aspectRatio": {
+                    "type": "string",
+                    "description": "The aspect ratio of the image to generate ex: 4:3, 1:1."
+                },
+                "emphasize": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    },
+                    "description": "List elements the AI should prioritize or enhance."
+                },
+                "avoid": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    },
+                    "description": "List elements the AI should exclude or minimize."
+                },
+                "styleStrength": {
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1,
+                    "description": "(Optional Hint) Suggests how strongly to adhere to the style definition (e.g., 0.8 for strong style adherence)."
+                },
+                "negativePromptHints": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    },
+                    "description": "Keywords often useful in a negative prompt (e.g., 'ugly', 'deformed', 'text', 'watermark', 'low quality')."
+                }
+            }
+        }
+    },
+    "required": [
+        "$schema",
+        "$type",
+        "artworkTitle",
+        "conceptDefinition",
+        "styleDefinition",
+        "sceneContext"
+    ]
+}

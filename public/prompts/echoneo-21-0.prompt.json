@@ -1,0 +1,123 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://goker.art/schemas/echoneo-prompt.schema.json/instances/surrealism-prehistoric",
+    "$type": "echoneo-artwork-prompt/v1",
+    "artworkTitle": "Surrealism Art depicted in Prehistoric Art Style",
+    "conceptDefinition": {
+        "origin": "Surrealism (Paris, 1920s-1940s AD, ongoing influence)",
+        "coreThemes": [
+            "Dreams / Unconscious",
+            "Irrationality",
+            "Unexpected Juxtaposition",
+            "Metamorphosis / Transformation",
+            "Mystery / The Uncanny",
+            "Psychological Landscapes (simplified)"
+        ],
+        "keySubjects": [
+            "Distorted schematic figures or animals",
+            "Illogically combined simple objects",
+            "Biomorphic shapes (simple organic abstracts)",
+            "Melting or flowing forms (simplified)",
+            "Floating simple shapes",
+            "Hybrid creatures (schematic)"
+        ],
+        "narrativeFocus": "Depict schematic figures, animals, or simple objects combined in bizarre, illogical, or dreamlike ways (e.g., a figure merging with an animal shape, objects floating unnaturally, distorted body parts), rendered with strong outlines on a rock surface in a cave-art style. Focus on creating a sense of strangeness, mystery, and the irrational.",
+        "desiredEmotion": "Dreamlike, Strange, Mysterious, Uncanny, Irrational, Unsettling",
+        "symbolismHints": [
+            "Juxtapose unrelated simplified forms (e.g., bird shape next to fish shape in the sky)",
+            "Distort or morph familiar shapes (stretch, melt, combine)",
+            "Create impossible or illogical scenarios using basic elements",
+            "Arrange shapes in a way that defies gravity or normal spatial relationships"
+        ],
+        "references": [
+            "Salvador Dalí's melting clocks (concept of soft forms)",
+            "René Magritte's illogical combinations (concept)",
+            "Joan Miró's biomorphic forms (concept of organic abstracts)",
+            "Max Ernst's hybrid creatures (concept)"
+        ]
+    },
+    "sceneContext": {
+        "lightingStyle": "Flat, indeterminate lighting, as appropriate for the intended Prehistoric style.",
+        "cameraView": "Direct views emphasizing the bizarre juxtapositions or distorted forms, mimicking the flatness of cave paintings.",
+        "settingSuggestion": "A rough, textured surface simulating a natural cave wall, perhaps with minimal lines suggesting a vast, empty, or dreamlike space, reflecting the intended Prehistoric style."
+    },
+    "aiDirectives": {
+        "width": 1536,
+        "height": 1024,
+        "aspectRatio": "4:3",
+        "emphasize": [
+            "Strong outlines",
+            "Primal rendering style",
+            "Illogical juxtapositions of simple shapes",
+            "Distortion or metamorphosis of forms",
+            "Dreamlike or uncanny atmosphere",
+            "Cave wall texture simulation",
+            "Limited ochre and black color palette"
+        ],
+        "avoid": [
+            "Realistic depiction (unless part of a deliberate, simple contrast)",
+            "Logical narratives or causal relationships",
+            "Rational or harmonious compositions",
+            "Detailed backgrounds or settings",
+            "Perspective or complex shading",
+            "Everyday mundane scenes",
+            "1:1 aspect ratio"
+        ],
+        "styleStrength": 0.85,
+        "negativePromptHints": [
+            "photograph",
+            "3D render",
+            "realistic",
+            "perspective",
+            "detailed",
+            "Surrealist painting (with detail/realism)",
+            "logical composition",
+            "normal objects",
+            "realistic anatomy",
+            "smooth background",
+            "complex colors",
+            "naturalism",
+            "rational",
+            "mundane",
+            "ordinary"
+        ]
+    },
+    "styleDefinition": {
+        "origin": "Prehistoric Art (Global, primarily Upper Paleolithic cave art, c. 40,000 - 10,000 BCE)",
+        "visualCharacteristics": [
+            "Focus on animal figures (bison, horses, deer, mammoths), often depicted with surprising naturalism and vitality",
+            "Human figures less common and typically abstract, schematic, or stick-like (distinct from more detailed animal portrayals)",
+            "Use of strong contour lines to define forms",
+            "Handprints (positive prints or negative stencils) and geometric signs (dots, lines, symbols)",
+            "Frequent overlapping of figures, suggesting different time periods or lack of unified composition",
+            "Occasional use of natural rock formations integrated into the shape of the animal",
+            "General absence of backgrounds, ground lines, or consistent perspective"
+        ],
+        "techniques": [
+            "Simulation of painting/drawing on cave walls",
+            "Using natural earth pigments (ochres, charcoal, manganese) possibly mixed with binders",
+            "Application by blowing pigment, dabbing, drawing with pigment chunks/charcoal",
+            "Simulation of engraving or incising lines into rock surface"
+        ],
+        "mediumSimulation": "Cave wall painting simulation (using natural pigments and charcoal on rock surface)",
+        "colorPalette": {
+            "description": "Limited palette derived from natural mineral pigments: earth ochres, charcoal, and manganese dioxide. Colors typically applied flatly or with rudimentary shading.",
+            "keyColors": [
+                "Red Ochre",
+                "Yellow Ochre",
+                "Brown Ochre",
+                "Carbon Black / Manganese Black",
+                "White (Chalk/Kaolin - less common)"
+            ]
+        },
+        "textureEmphasis": "Rough, uneven texture inherent to the natural cave wall surface, often incorporated into the artwork. The paint/pigment itself may appear powdery or stained into the rock.",
+        "compositionStyle": "Figures often appear scattered, superimposed, or isolated across the cave surface without a clear compositional structure, ground line, or consistent scale. Arrangement seems opportunistic, utilizing wall contours rather than creating a unified scene.",
+        "references": [
+            "Lascaux Cave paintings (France)",
+            "Chauvet Cave paintings (France)",
+            "Altamira Cave paintings (Spain)",
+            "Hand stencils from El Castillo Cave (Spain)",
+            "Cosquer Cave (France)"
+        ]
+    }
+}

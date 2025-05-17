@@ -1,0 +1,108 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://goker.art/schemas/echoneo-prompt.schema.json/instances/prehistoric-surrealism",
+    "$type": "echoneo-artwork-prompt/v1",
+    "artworkTitle": "Prehistoric Art depicted in Surrealism Art Style",
+    "conceptDefinition": {
+        "origin": "Prehistoric Art",
+        "coreThemes": [
+            "Survival",
+            "The Hunt",
+            "Ritual",
+            "Human relationship with large fauna",
+            "Primal energy"
+        ],
+        "keySubjects": [
+            "Simplified human figures (hunters)",
+            "Large animals (e.g., bison, aurochs, deer)",
+            "Spears or primitive hunting tools",
+            "Cave walls or rocky landscape elements (as subject matter)"
+        ],
+        "narrativeFocus": "Depict a group of simplified, active human figures engaged in hunting a large bison or similar prehistoric animal. Focus on the action and relationship between hunters and prey.",
+        "desiredEmotion": "A mix of ritualistic reverence, primal tension, and the importance of the hunt for survival.",
+        "symbolismHints": [
+            "Emphasize the size and power of the animal",
+            "Show coordination among hunters",
+            "Use repetitive patterns if suggesting ritual"
+        ],
+        "references": [
+            "Cave paintings of Lascaux",
+            "Altamira cave art depictions of bison"
+        ]
+    },
+    "styleDefinition": {
+        "origin": "Surrealism (Launched Paris, 1924, flourished 1920s-1940s AD, ongoing influence)",
+        "visualCharacteristics": [
+            "Exploration of dreams, the unconscious mind, and irrationality (influenced by Freudian psychoanalysis)",
+            "Juxtaposition of bizarre, unrelated objects or elements in unexpected contexts",
+            "Creation of dreamlike, hallucinatory, or uncanny scenes",
+            "Distortion of scale, natural laws, and reality",
+            "Two main tendencies: Veristic (hyperrealistic rendering of dreamlike scenes) and Abstract/Automatist (biomorphic shapes, automatic techniques)",
+            "Element of surprise, mystery, eroticism, and psychological depth",
+            "Interest in myth, metamorphosis, desire, and unlocking repressed thoughts"
+        ],
+        "techniques": [
+            "Oil painting simulation (either highly detailed or abstract/automatist)",
+            "Automatism (drawing/painting without conscious control)",
+            "Frottage (rubbing), Grattage (scraping), Decalcomania (blotting)",
+            "Collage and Assemblage",
+            "Meticulous, academic rendering techniques applied to irrational subjects (Veristic)",
+            "Use of biomorphic (organic-like abstract) shapes (Abstract)"
+        ],
+        "mediumSimulation": "Oil painting on canvas (simulating either Veristic detail or Abstract/Automatist application)",
+        "colorPalette": {
+            "description": "Highly variable. Veristic Surrealism often uses realistic, sometimes heightened or unnervingly lit colors to enhance the believability/strangeness of dream scenes. Abstract Surrealism may use brighter, symbolic, or more arbitrary colors (e.g., Miró's primaries).",
+            "keyColors": [
+                "(Veristic): Naturalistic but potentially intense blues, ochres, flesh tones, deep shadows.",
+                "(Abstract): Often primaries (Red, Blue, Yellow), Black, White, Earth tones."
+            ]
+        },
+        "textureEmphasis": "Veristic: Typically smooth, highly finished surfaces emphasizing the realistic detail of unreal scenes. Abstract/Automatist: Can be more varied, showing brushwork, automatic lines, or even incorporating materials like sand.",
+        "compositionStyle": "Based on illogical or dreamlike associations and juxtapositions. Veristic style often uses deep, illusionistic perspective but populates it irrationally. Abstract/Automatist style frequently features biomorphic forms floating or interacting in ambiguous, flat, or undefined space.",
+        "references": [
+            "Salvador Dalí ('The Persistence of Memory')",
+            "René Magritte ('The Treachery of Images - Ceci n'est pas une pipe')",
+            "Max Ernst ('The Elephant Celebes', frottages)",
+            "Joan Miró ('Harlequin's Carnival', biomorphic abstracts)",
+            "Yves Tanguy (Dream landscapes)",
+            "Man Ray (Photographs, objects)",
+            "Giorgio de Chirico (Metaphysical Painting - precursor)"
+        ]
+    },
+    "sceneContext": {
+        "lightingStyle": "Flat, even, bright lighting with no discernible source or shadows, typical of Egyptian art.",
+        "cameraView": "Strict profile or composite view, straight-on perspective, avoiding complex angles.",
+        "settingSuggestion": "A stylized representation of a cave interior or outdoor landscape, framed perhaps with simple geometric Egyptian borders or patterns."
+    },
+    "aiDirectives": {
+        "width": 1536,
+        "height": 1024,
+        "aspectRatio": "4:3",
+        "emphasize": [
+            "Composite view of figures",
+            "Strong outlines",
+            "Flat color application",
+            "Hierarchical scale (if applicable)",
+            "Formal arrangement of figures"
+        ],
+        "avoid": [
+            "Realistic perspective",
+            "Atmospheric depth",
+            "Shading and blending of colors",
+            "Dynamic, fluid poses (use stiff Egyptian poses)",
+            "Realistic anatomy",
+            "Visible brushstrokes",
+            "1:1 aspect ratio"
+        ],
+        "styleStrength": 0.85,
+        "negativePromptHints": [
+            "photorealistic",
+            "3D render",
+            "depth",
+            "perspective",
+            "shadows",
+            "impressionistic",
+            "sketchy"
+        ]
+    }
+}

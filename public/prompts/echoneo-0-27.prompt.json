@@ -1,0 +1,113 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://goker.art/schemas/echoneo-prompt.schema.json/instances/prehistoric-contemporary-art",
+    "$type": "echoneo-artwork-prompt/v1",
+    "artworkTitle": "Prehistoric Art depicted in Contemporary Art Style",
+    "conceptDefinition": {
+        "origin": "Prehistoric Art",
+        "coreThemes": [
+            "Survival",
+            "The Hunt",
+            "Ritual",
+            "Human relationship with large fauna",
+            "Primal energy"
+        ],
+        "keySubjects": [
+            "Simplified human figures (hunters)",
+            "Large animals (e.g., bison, aurochs, deer)",
+            "Spears or primitive hunting tools",
+            "Cave walls or rocky landscape elements (as subject matter)"
+        ],
+        "narrativeFocus": "Depict a group of simplified, active human figures engaged in hunting a large bison or similar prehistoric animal. Focus on the action and relationship between hunters and prey.",
+        "desiredEmotion": "A mix of ritualistic reverence, primal tension, and the importance of the hunt for survival.",
+        "symbolismHints": [
+            "Emphasize the size and power of the animal",
+            "Show coordination among hunters",
+            "Use repetitive patterns if suggesting ritual"
+        ],
+        "references": [
+            "Cave paintings of Lascaux",
+            "Altamira cave art depictions of bison"
+        ]
+    },
+    "styleDefinition": {
+        "origin": "Contemporary Art (Global, c. late 1970s/1980s - Present Day: Wednesday, April 9, 2025)",
+        "visualCharacteristics": [
+            "Defined by the current time period rather than a single cohesive style, movement, or ideology",
+            "Extreme diversity and plurality of styles, approaches, and concerns",
+            "Reflects a globalized art world, incorporating diverse cultural perspectives and influences",
+            "Continuation and expansion of Postmodern strategies (appropriation, irony, identity politics, institutional critique)",
+            "Significant influence of digital technology, the internet, social media, and globalization",
+            "Often engages with current social, political, environmental, and technological issues",
+            "Blurs boundaries between art disciplines and other fields (science, activism, design, etc.)",
+            "Can encompass any aesthetic from hyperrealism to abstraction, minimalism to maximalism, conceptual to craft-based"
+        ],
+        "techniques": [
+            "Employs an unlimited range of techniques, materials, and technologies, often in combination:",
+            "Traditional media (painting, sculpture, drawing, printmaking) used in conventional or unconventional ways",
+            "Installation Art, Site-Specific Art",
+            "Performance Art, Body Art",
+            "Video Art, Film",
+            "Digital Art (Generative, Net Art, VR/AR, AI-assisted)",
+            "Photography (digital, manipulated)",
+            "Sound Art",
+            "BioArt",
+            "Social Practice / Community-based Art",
+            "Mixed Media, Assemblage"
+        ],
+        "mediumSimulation": "Highly Variable Medium Simulation - depends entirely on the specific contemporary work being referenced (e.g., Digital Installation, Hyperrealistic Painting, Performance Documentation, Conceptual Text)",
+        "colorPalette": {
+            "description": "Completely open, context-dependent, and artist-specific. No characteristic palette defines contemporary art. Can range from monochrome to full spectrum, digital gamuts, naturalistic, symbolic, or conceptual color use.",
+            "keyColors": [
+                "(Not applicable as a general style - entirely context-specific)"
+            ]
+        },
+        "textureEmphasis": "Entirely dependent on the specific artwork, medium, and artist's intent. Can range from smooth digital or industrial surfaces to raw, found materials, organic textures, expressive paint, ephemeral materials, etc. Texture is a deliberate conceptual or aesthetic choice.",
+        "compositionStyle": "No dominant compositional approach. Styles are extremely diverse and driven by the individual artist's concept, chosen medium, and context. Can be ordered, chaotic, minimal, maximal, interactive, virtual, systematic, narrative, anti-narrative, etc. Rejects prescriptive compositional rules.",
+        "references": [
+            "(Impossible to list definitively due to vastness and ongoing nature. Reference specific artists or trends relevant to the desired outcome, e.g.):",
+            "Artists working with technology/digital media (e.g., Hito Steyerl, Trevor Paglen)",
+            "Installation artists (e.g., Olafur Eliasson, Yayoi Kusama)",
+            "Painters exploring figuration/identity (e.g., Kehinde Wiley, Kerry James Marshall)",
+            "Socially engaged artists (e.g., Theaster Gates, Ai Weiwei)",
+            "Conceptual artists (contemporary iterations)",
+            "Performance artists (contemporary iterations)"
+        ]
+    },
+    "sceneContext": {
+        "lightingStyle": "Flat, even, bright lighting with no discernible source or shadows, typical of Egyptian art.",
+        "cameraView": "Strict profile or composite view, straight-on perspective, avoiding complex angles.",
+        "settingSuggestion": "A stylized representation of a cave interior or outdoor landscape, framed perhaps with simple geometric Egyptian borders or patterns."
+    },
+    "aiDirectives": {
+        "width": 1536,
+        "height": 1024,
+        "aspectRatio": "4:3",
+        "emphasize": [
+            "Composite view of figures",
+            "Strong outlines",
+            "Flat color application",
+            "Hierarchical scale (if applicable)",
+            "Formal arrangement of figures"
+        ],
+        "avoid": [
+            "Realistic perspective",
+            "Atmospheric depth",
+            "Shading and blending of colors",
+            "Dynamic, fluid poses (use stiff Egyptian poses)",
+            "Realistic anatomy",
+            "Visible brushstrokes",
+            "1:1 aspect ratio"
+        ],
+        "styleStrength": 0.85,
+        "negativePromptHints": [
+            "photorealistic",
+            "3D render",
+            "depth",
+            "perspective",
+            "shadows",
+            "impressionistic",
+            "sketchy"
+        ]
+    }
+}

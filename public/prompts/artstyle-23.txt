@@ -1,0 +1,5 @@
+Art Style:
+Apply the Pop Art style, incorporating imagery and aesthetics from mass media, advertising, comic books, and consumer culture. Use bold outlines, flat, bright color areas, and a mechanical or impersonal aesthetic. Emphasize recognizable subjects in a clean, commercial-like finish, minimizing visible brushwork. Techniques may include silkscreen simulation, Ben-Day dots, flat acrylic painting, stenciling, and collage elements sourced from popular media. The mood can be ironic, humorous, critical, or celebratory, but compositions should be direct, iconic, and easily readable.
+
+Scene & Technical Details:
+Render the artwork in a 4:3 aspect ratio (1536×1024 resolution) with flat, bright, even lighting and no visible shadows. Use a straight-on, clear camera view with centralized, bold compositions reminiscent of advertisement layouts or comic panels. Maintain strong black outlines, flat, unmodulated colors, and smooth, polished surfaces without texture or painterly effects. Avoid atmospheric depth, realistic shading, or visible brushstrokes. Prefer clean, sharp visual elements that mimic the look of printed materials and pop culture artifacts.

@@ -1,0 +1,123 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://goker.art/schemas/echoneo-prompt.schema.json/instances/prehistoric-gothic",
+    "$type": "echoneo-artwork-prompt/v1",
+    "artworkTitle": "Prehistoric Art depicted in Gothic Art Style",
+    "conceptDefinition": {
+        "origin": "Prehistoric Art",
+        "coreThemes": [
+            "Survival",
+            "The Hunt",
+            "Ritual",
+            "Human relationship with large fauna",
+            "Primal energy"
+        ],
+        "keySubjects": [
+            "Simplified human figures (hunters)",
+            "Large animals (e.g., bison, aurochs, deer)",
+            "Spears or primitive hunting tools",
+            "Cave walls or rocky landscape elements (as subject matter)"
+        ],
+        "narrativeFocus": "Depict a group of simplified, active human figures engaged in hunting a large bison or similar prehistoric animal. Focus on the action and relationship between hunters and prey.",
+        "desiredEmotion": "A mix of ritualistic reverence, primal tension, and the importance of the hunt for survival.",
+        "symbolismHints": [
+            "Emphasize the size and power of the animal",
+            "Show coordination among hunters",
+            "Use repetitive patterns if suggesting ritual"
+        ],
+        "references": [
+            "Cave paintings of Lascaux",
+            "Altamira cave art depictions of bison"
+        ]
+    },
+    "styleDefinition": {
+        "origin": "Gothic Art (Europe, c. 12th - 15th/16th Century AD, emphasis on High Gothic Stained Glass)",
+        "visualCharacteristics": [
+            "Emphasis on light and color, creating a luminous, transcendent atmosphere",
+            "Figures are often slender, elegant, and elongated",
+            "Increased naturalism in figures and drapery compared to Romanesque, though still stylized",
+            "Use of rich, jewel-like colors (deep blues, reds, greens, yellows)",
+            "Strong black outlines created by lead came separating pieces of colored glass",
+            "Narrative scenes from the Bible, lives of saints, or patrons' lives",
+            "Figures may exhibit graceful poses, sometimes the 'Gothic S-curve'",
+            "Growing interest in conveying human emotion and tenderness"
+        ],
+        "techniques": [
+            "Stained glass simulation",
+            "Cutting colored glass pieces to shape",
+            "Joining pieces with lead came strips",
+            "Painting details (facial features, drapery folds) onto glass surface with vitreous paint (grisaille) then firing",
+            "Arrangement within stone tracery (implied or explicit)"
+        ],
+        "mediumSimulation": "Gothic stained glass window set within stone tracery",
+        "colorPalette": {
+            "description": "Rich, luminous, translucent jewel tones. Dominated by deep blues (like Chartres Blue) and ruby reds, complemented by emerald greens, golden yellows, purples, and areas of white/clear glass or grisaille (grey/brownish painted details). Colors are separated by thick black lines (lead came).",
+            "keyColors": [
+                "Deep Blue (Cobalt/Chartres)",
+                "Ruby Red",
+                "Emerald Green",
+                "Golden Yellow",
+                "White/Grisaille",
+                "Violet",
+                "Black (Lead Lines)"
+            ]
+        },
+        "textureEmphasis": "Smooth surface of glass, but visually defined by the pattern of lead lines and the transmission of colored light. Emphasis on luminosity and color intensity.",
+        "compositionStyle": "Often divided into multiple narrative panels or geometric sections by lead lines and/or stone tracery. Compositions are typically vertical, following the shape of Gothic windows. Figures clearly delineated within their sections. Decorative borders and canopy details common.",
+        "references": [
+            "Stained glass windows of Chartres Cathedral (France)",
+            "Stained glass of Sainte-Chapelle, Paris",
+            "The Five Sisters Window, York Minster (England)",
+            "Stained glass of Cologne Cathedral (Germany)"
+        ]
+    },
+    "sceneContext": {
+        "lightingStyle": "Backlit effect simulating transmitted light through colored glass, creating high luminosity and intense color saturation. Minimal cast shadows on the glass itself; light primarily defines the forms through color.",
+        "cameraView": "Direct, front-on view, often slightly low angle looking up, capturing the window or sections within its tracery. Emphasis on the flat plane of the glass and the bold pattern of lead lines. Vertical compositions are common.",
+        "settingSuggestion": "Set within Gothic stone tracery (pointed arches, mullions, rose window patterns, geometric shapes). Often implies the interior setting of a cathedral or church looking outwards through the window."
+    },
+    "aiDirectives": {
+        "width": 1536,
+        "height": 1024,
+        "aspectRatio": "4:3",
+        "emphasize": [
+            "Luminous, saturated jewel-like colors",
+            "Strong black outlines (simulating lead came)",
+            "Transmitted light effect (backlit glow)",
+            "Elongated and elegant figures (Gothic style)",
+            "Stylized drapery folds",
+            "Narrative panels or sections within the composition",
+            "Gothic architectural tracery elements",
+            "Grisaille details (painted lines/shading on glass)",
+            "Flatness of the picture plane (limited perspective)",
+            "Vertical orientation (if appropriate for window shape)"
+        ],
+        "avoid": [
+            "Realistic 3D perspective and depth",
+            "Atmospheric perspective",
+            "Chiaroscuro / Volumetric shading with soft gradients",
+            "Photorealism or photographic qualities",
+            "Smooth color blending across lead lines",
+            "Visible canvas/paint texture (should look like glass)",
+            "External light sources casting distinct shadows across the glass surface",
+            "Renaissance or Baroque anatomical realism or composition",
+            "Egyptian art conventions"
+        ],
+        "styleStrength": 0.85,
+        "negativePromptHints": [
+            "photorealistic",
+            "3D render",
+            "realistic shadows",
+            "perspective depth",
+            "smooth gradients",
+            "oil painting",
+            "canvas texture",
+            "blurry lines",
+            "impressionistic",
+            "modern art",
+            "Renaissance",
+            "Baroque",
+            "photography"
+        ]
+    }
+}

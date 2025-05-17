@@ -1,0 +1,126 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://goker.art/schemas/echoneo-prompt.schema.json/instances/neoclassicism-prehistoric",
+    "$type": "echoneo-artwork-prompt/v1",
+    "artworkTitle": "Neoclassicism Art depicted in Prehistoric Art Style",
+    "conceptDefinition": {
+        "origin": "Neoclassicism (Europe/North America, c. mid-18th - early 19th Century AD)",
+        "coreThemes": [
+            "Order",
+            "Reason",
+            "Clarity",
+            "Virtue (Civic/Moral)",
+            "Sacrifice",
+            "Stoicism",
+            "Seriousness"
+        ],
+        "keySubjects": [
+            "Figures in formal or stoic poses",
+            "Groups arranged in orderly lines or symmetrical patterns",
+            "Figures performing solemn gestures (oath-taking, pointing)",
+            "Heroic figures (simplified)",
+            "Classical symbols (column shape, simplified laurel wreath, sword shape)",
+            "Allegorical figures (simplified human forms representing concepts)"
+        ],
+        "narrativeFocus": "Depict schematic human figures arranged in a clear, ordered, perhaps linear or symmetrical composition, possibly performing a unified, solemn gesture (like raising arms), rendered with strong, distinct outlines on a rock surface in a cave-art style. Focus on conveying rationality, order, and seriousness.",
+        "desiredEmotion": "Order, Clarity, Seriousness, Austerity, Simplified Virtue",
+        "symbolismHints": [
+            "Use clear, unwavering outlines",
+            "Arrange figures in stable, predictable patterns (lines, simple symmetry)",
+            "Emphasize upright, formal, or stoic postures",
+            "Simplify any classical symbols to their most basic form"
+        ],
+        "references": [
+            "Jacques-Louis David's 'Oath of the Horatii' (concept of civic virtue, ordered composition)",
+            "Roman Republican history (conceptual themes)",
+            "Classical relief sculpture (conceptual source for frieze-like arrangements)"
+        ]
+    },
+    "sceneContext": {
+        "lightingStyle": "Flat, indeterminate lighting, as appropriate for the intended Prehistoric style.",
+        "cameraView": "Direct, frontal or profile views emphasizing order and clarity, mimicking the flatness of cave paintings.",
+        "settingSuggestion": "A rough, textured surface simulating a natural cave wall, reflecting the intended Prehistoric style, possibly with a strong horizontal ground line."
+    },
+    "aiDirectives": {
+        "width": 1536,
+        "height": 1024,
+        "aspectRatio": "4:3",
+        "emphasize": [
+            "Strong, clear outlines",
+            "Primal rendering style",
+            "Ordered, stable, or symmetrical arrangements",
+            "Formal or stoic poses",
+            "Cave wall texture simulation",
+            "Limited ochre and black color palette"
+        ],
+        "avoid": [
+            "Emotional expressiveness or dynamism (Baroque/Romantic)",
+            "Lightness or playfulness (Rococo)",
+            "Complex or twisting poses",
+            "Detailed backgrounds or settings",
+            "Perspective, shading, or atmospheric effects",
+            "Visible or expressive brushwork",
+            "Asymmetrical or chaotic compositions",
+            "1:1 aspect ratio"
+        ],
+        "styleStrength": 0.85,
+        "negativePromptHints": [
+            "photograph",
+            "3D render",
+            "realistic",
+            "perspective",
+            "detailed",
+            "Neoclassical painting",
+            "smooth finish",
+            "emotional",
+            "dynamic pose",
+            "Rococo",
+            "Baroque",
+            "Romanticism",
+            "complex background",
+            "complex colors",
+            "naturalism",
+            "asymmetry",
+            "chaos",
+            "curved lines"
+        ]
+    },
+    "styleDefinition": {
+        "origin": "Prehistoric Art (Global, primarily Upper Paleolithic cave art, c. 40,000 - 10,000 BCE)",
+        "visualCharacteristics": [
+            "Focus on animal figures (bison, horses, deer, mammoths), often depicted with surprising naturalism and vitality",
+            "Human figures less common and typically abstract, schematic, or stick-like (distinct from more detailed animal portrayals)",
+            "Use of strong contour lines to define forms",
+            "Handprints (positive prints or negative stencils) and geometric signs (dots, lines, symbols)",
+            "Frequent overlapping of figures, suggesting different time periods or lack of unified composition",
+            "Occasional use of natural rock formations integrated into the shape of the animal",
+            "General absence of backgrounds, ground lines, or consistent perspective"
+        ],
+        "techniques": [
+            "Simulation of painting/drawing on cave walls",
+            "Using natural earth pigments (ochres, charcoal, manganese) possibly mixed with binders",
+            "Application by blowing pigment, dabbing, drawing with pigment chunks/charcoal",
+            "Simulation of engraving or incising lines into rock surface"
+        ],
+        "mediumSimulation": "Cave wall painting simulation (using natural pigments and charcoal on rock surface)",
+        "colorPalette": {
+            "description": "Limited palette derived from natural mineral pigments: earth ochres, charcoal, and manganese dioxide. Colors typically applied flatly or with rudimentary shading.",
+            "keyColors": [
+                "Red Ochre",
+                "Yellow Ochre",
+                "Brown Ochre",
+                "Carbon Black / Manganese Black",
+                "White (Chalk/Kaolin - less common)"
+            ]
+        },
+        "textureEmphasis": "Rough, uneven texture inherent to the natural cave wall surface, often incorporated into the artwork. The paint/pigment itself may appear powdery or stained into the rock.",
+        "compositionStyle": "Figures often appear scattered, superimposed, or isolated across the cave surface without a clear compositional structure, ground line, or consistent scale. Arrangement seems opportunistic, utilizing wall contours rather than creating a unified scene.",
+        "references": [
+            "Lascaux Cave paintings (France)",
+            "Chauvet Cave paintings (France)",
+            "Altamira Cave paintings (Spain)",
+            "Hand stencils from El Castillo Cave (Spain)",
+            "Cosquer Cave (France)"
+        ]
+    }
+}

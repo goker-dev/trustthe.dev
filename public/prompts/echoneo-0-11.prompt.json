@@ -1,0 +1,111 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://goker.art/schemas/echoneo-prompt.schema.json/instances/prehistoric-neoclassicism",
+    "$type": "echoneo-artwork-prompt/v1",
+    "artworkTitle": "Prehistoric Art depicted in Neoclassicism Art Style",
+    "conceptDefinition": {
+        "origin": "Prehistoric Art",
+        "coreThemes": [
+            "Survival",
+            "The Hunt",
+            "Ritual",
+            "Human relationship with large fauna",
+            "Primal energy"
+        ],
+        "keySubjects": [
+            "Simplified human figures (hunters)",
+            "Large animals (e.g., bison, aurochs, deer)",
+            "Spears or primitive hunting tools",
+            "Cave walls or rocky landscape elements (as subject matter)"
+        ],
+        "narrativeFocus": "Depict a group of simplified, active human figures engaged in hunting a large bison or similar prehistoric animal. Focus on the action and relationship between hunters and prey.",
+        "desiredEmotion": "A mix of ritualistic reverence, primal tension, and the importance of the hunt for survival.",
+        "symbolismHints": [
+            "Emphasize the size and power of the animal",
+            "Show coordination among hunters",
+            "Use repetitive patterns if suggesting ritual"
+        ],
+        "references": [
+            "Cave paintings of Lascaux",
+            "Altamira cave art depictions of bison"
+        ]
+    },
+    "styleDefinition": {
+        "origin": "Neoclassicism (Europe and North America, c. mid-18th - early 19th Century AD)",
+        "visualCharacteristics": [
+            "Revival of Classical Greek and Roman aesthetics: order, clarity, balance, logic, and seriousness",
+            "Emphasis on strong drawing, clear contours, and defined forms (line over color)",
+            "Subjects often drawn from Classical history, mythology, or literature, emphasizing themes of virtue, heroism, patriotism, and rationality",
+            "Figures typically appear calm, controlled, and statuesque, often in classical drapery or idealized nudity",
+            "Emotional restraint and seriousness of expression",
+            "Smooth, highly finished surfaces with suppressed brushwork",
+            "Attention to archaeological accuracy in settings and costumes",
+            "A reaction against the perceived frivolity and ornamentation of Rococo"
+        ],
+        "techniques": [
+            "Oil painting simulation with a polished, highly finished surface",
+            "Emphasis on precise drawing and clear delineation of forms",
+            "Modeling forms with subtle light and shadow, avoiding dramatic Baroque chiaroscuro",
+            "Sculptural approach to figures"
+        ],
+        "mediumSimulation": "Oil painting on canvas (or White Marble Sculpture simulation)",
+        "colorPalette": {
+            "description": "Often features restrained, sometimes somber color palettes with strong local colors applied clearly within contours. Avoids Rococo pastels and Baroque drama, aiming for clarity and gravity. Use of strong reds, blues, whites, ochres, and greys is common.",
+            "keyColors": [
+                "Strong Reds (like Roman frescoes)",
+                "Deep Blues",
+                "Stark Whites / Marble White",
+                "Yellow Ochre",
+                "Greys / Stone Colors",
+                "Subdued Greens",
+                "Earthy Browns"
+            ]
+        },
+        "textureEmphasis": "Smooth, polished finish with minimal visible brushwork. Emphasis is on the clarity of form and line, achieving an almost sculptural surface quality.",
+        "compositionStyle": "Ordered, stable, and balanced compositions, often symmetrical or arranged horizontally like a classical frieze. Clear, logical structure with figures often parallel to the picture plane. Shallow, clearly defined space is common. Prioritizes rationality and stability.",
+        "references": [
+            "Jacques-Louis David ('Oath of the Horatii', 'Death of Marat')",
+            "Jean-Auguste-Dominique Ingres ('Apotheosis of Homer', portraits)",
+            "Antonio Canova ('Psyche Revived by Cupid's Kiss' - sculpture)",
+            "Bertel Thorvaldsen (Sculptures)",
+            "Angelica Kauffman ('Cornelia, Mother of the Gracchi')",
+            "Benjamin West ('The Death of General Wolfe')"
+        ]
+    },
+    "sceneContext": {
+        "lightingStyle": "Flat, even, bright lighting with no discernible source or shadows, typical of Egyptian art.",
+        "cameraView": "Strict profile or composite view, straight-on perspective, avoiding complex angles.",
+        "settingSuggestion": "A stylized representation of a cave interior or outdoor landscape, framed perhaps with simple geometric Egyptian borders or patterns."
+    },
+    "aiDirectives": {
+        "width": 1536,
+        "height": 1024,
+        "aspectRatio": "4:3",
+        "emphasize": [
+            "Composite view of figures",
+            "Strong outlines",
+            "Flat color application",
+            "Hierarchical scale (if applicable)",
+            "Formal arrangement of figures"
+        ],
+        "avoid": [
+            "Realistic perspective",
+            "Atmospheric depth",
+            "Shading and blending of colors",
+            "Dynamic, fluid poses (use stiff Egyptian poses)",
+            "Realistic anatomy",
+            "Visible brushstrokes",
+            "1:1 aspect ratio"
+        ],
+        "styleStrength": 0.85,
+        "negativePromptHints": [
+            "photorealistic",
+            "3D render",
+            "depth",
+            "perspective",
+            "shadows",
+            "impressionistic",
+            "sketchy"
+        ]
+    }
+}

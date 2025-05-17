@@ -1,0 +1,123 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://goker.art/schemas/echoneo-prompt.schema.json/instances/conceptual-art-prehistoric",
+    "$type": "echoneo-artwork-prompt/v1",
+    "artworkTitle": "Conceptual Art depicted in Prehistoric Art Style",
+    "conceptDefinition": {
+        "origin": "Conceptual Art (International, c. mid-1960s - mid-1970s AD)",
+        "coreThemes": [
+            "Idea as Art",
+            "Information / System",
+            "Language (conceptual basis)",
+            "Process / Instruction",
+            "Dematerialization (conceptual)",
+            "Anti-Aesthetic"
+        ],
+        "keySubjects": [
+            "Patterns of simple marks (dots, lines, tallies)",
+            "Basic diagrams or map-like lines",
+            "Systematic arrangements of simple shapes",
+            "Instructional sequences (simplified)",
+            "Text concept (represented by lines/marks)",
+            "Documentation concept (represented by framing/marks)"
+        ],
+        "narrativeFocus": "Depict an arrangement of simple, repeated marks (like dots or tally lines), basic connecting lines suggesting a map or diagram, or geometric shapes organized systematically, rendered with clear, basic outlines on a rock surface in a cave-art style. The aim is to represent an underlying idea, system, or piece of information abstractly, devoid of aesthetic goals or representation.",
+        "desiredEmotion": "Analytical, Informational, Systematic, Objective, Questioning",
+        "symbolismHints": [
+            "Use repetition of simple marks to suggest lists, counting, or data",
+            "Employ straight connecting lines to imply relationships or systems",
+            "Arrange basic shapes (squares, circles) in a grid or clear sequence",
+            "Maintain utmost simplicity and clarity, focusing on the structure of the marks"
+        ],
+        "references": [
+            "Sol LeWitt's wall drawings (concept of instructions/systems generating form)",
+            "Joseph Kosuth's work (concept of exploring definitions/ideas)",
+            "Hanne Darboven's work (concept of systematic writing/marking)"
+        ]
+    },
+    "sceneContext": {
+        "lightingStyle": "Flat, indeterminate lighting, as appropriate for the intended Prehistoric style.",
+        "cameraView": "Direct, flat view emphasizing the pattern, system, or arrangement of marks, mimicking the flatness of cave paintings.",
+        "settingSuggestion": "A rough, textured surface simulating a natural cave wall, reflecting the intended Prehistoric style."
+    },
+    "aiDirectives": {
+        "width": 1536,
+        "height": 1024,
+        "aspectRatio": "4:3",
+        "emphasize": [
+            "Strong, simple, clear outlines/marks",
+            "Primal rendering style",
+            "Representation of system/information (via dots, lines, grids)",
+            "Systematic or repetitive arrangements",
+            "Stark simplicity",
+            "Cave wall texture simulation",
+            "Limited ochre and black color palette",
+            "1:1 aspect ratio"
+        ],
+        "avoid": [
+            "Any representational imagery (figures, animals, recognizable objects)",
+            "Expressive, gestural, or decorative marks",
+            "Aesthetic concerns (beauty, harmony, visual appeal)",
+            "Complex shapes or compositions",
+            "Emotional content or subjectivity",
+            "Perspective, shading, or illusionism"
+        ],
+        "styleStrength": 0.85,
+        "negativePromptHints": [
+            "photograph",
+            "3D render",
+            "realistic",
+            "perspective",
+            "detailed",
+            "Conceptual Art (actual text/photo)",
+            "figure",
+            "animal",
+            "object",
+            "expressive lines",
+            "complex shapes",
+            "beautiful",
+            "emotional",
+            "detailed background",
+            "painterly",
+            "representational"
+        ]
+    },
+    "styleDefinition": {
+        "origin": "Prehistoric Art (Global, primarily Upper Paleolithic cave art, c. 40,000 - 10,000 BCE)",
+        "visualCharacteristics": [
+            "Focus on animal figures (bison, horses, deer, mammoths), often depicted with surprising naturalism and vitality",
+            "Human figures less common and typically abstract, schematic, or stick-like (distinct from more detailed animal portrayals)",
+            "Use of strong contour lines to define forms",
+            "Handprints (positive prints or negative stencils) and geometric signs (dots, lines, symbols)",
+            "Frequent overlapping of figures, suggesting different time periods or lack of unified composition",
+            "Occasional use of natural rock formations integrated into the shape of the animal",
+            "General absence of backgrounds, ground lines, or consistent perspective"
+        ],
+        "techniques": [
+            "Simulation of painting/drawing on cave walls",
+            "Using natural earth pigments (ochres, charcoal, manganese) possibly mixed with binders",
+            "Application by blowing pigment, dabbing, drawing with pigment chunks/charcoal",
+            "Simulation of engraving or incising lines into rock surface"
+        ],
+        "mediumSimulation": "Cave wall painting simulation (using natural pigments and charcoal on rock surface)",
+        "colorPalette": {
+            "description": "Limited palette derived from natural mineral pigments: earth ochres, charcoal, and manganese dioxide. Colors typically applied flatly or with rudimentary shading.",
+            "keyColors": [
+                "Red Ochre",
+                "Yellow Ochre",
+                "Brown Ochre",
+                "Carbon Black / Manganese Black",
+                "White (Chalk/Kaolin - less common)"
+            ]
+        },
+        "textureEmphasis": "Rough, uneven texture inherent to the natural cave wall surface, often incorporated into the artwork. The paint/pigment itself may appear powdery or stained into the rock.",
+        "compositionStyle": "Figures often appear scattered, superimposed, or isolated across the cave surface without a clear compositional structure, ground line, or consistent scale. Arrangement seems opportunistic, utilizing wall contours rather than creating a unified scene.",
+        "references": [
+            "Lascaux Cave paintings (France)",
+            "Chauvet Cave paintings (France)",
+            "Altamira Cave paintings (Spain)",
+            "Hand stencils from El Castillo Cave (Spain)",
+            "Cosquer Cave (France)"
+        ]
+    }
+}

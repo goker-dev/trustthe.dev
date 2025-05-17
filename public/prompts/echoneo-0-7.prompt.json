@@ -1,0 +1,125 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://goker.art/schemas/echoneo-prompt.schema.json/instances/prehistoric-renaissance",
+    "$type": "echoneo-artwork-prompt/v1",
+    "artworkTitle": "Prehistoric Art depicted in Renaissance Art Style",
+    "conceptDefinition": {
+        "origin": "Prehistoric Art",
+        "coreThemes": [
+            "Survival",
+            "The Hunt",
+            "Ritual",
+            "Human relationship with large fauna",
+            "Primal energy"
+        ],
+        "keySubjects": [
+            "Simplified human figures (hunters)",
+            "Large animals (e.g., bison, aurochs, deer)",
+            "Spears or primitive hunting tools",
+            "Cave walls or rocky landscape elements (as subject matter)"
+        ],
+        "narrativeFocus": "Depict a group of simplified, active human figures engaged in hunting a large bison or similar prehistoric animal. Focus on the action and relationship between hunters and prey.",
+        "desiredEmotion": "A mix of ritualistic reverence, primal tension, and the importance of the hunt for survival.",
+        "symbolismHints": [
+            "Emphasize the size and power of the animal",
+            "Show coordination among hunters",
+            "Use repetitive patterns if suggesting ritual"
+        ],
+        "references": [
+            "Cave paintings of Lascaux",
+            "Altamira cave art depictions of bison"
+        ]
+    },
+    "styleDefinition": {
+        "origin": "Renaissance Art (Europe, c. 1400 - 1600 AD, emphasis on Italian High Renaissance)",
+        "visualCharacteristics": [
+            "Revival of Classical Greek and Roman ideals: humanism, harmony, proportion",
+            "Emphasis on idealized naturalism and accurate human anatomy",
+            "Mastery of linear perspective to create rational, ordered space",
+            "Use of chiaroscuro (light and shadow) to model form and create volume",
+            "Figures possess realistic weight, volume, and psychological presence",
+            "Balanced, stable, and harmonious compositions (often pyramidal or symmetrical)",
+            "Interest in both Christian subjects and Classical mythology",
+            "Developed portraiture showing individual likeness and character"
+        ],
+        "techniques": [
+            "Oil painting simulation (allowing for sfumato, glazes, rich colors)",
+            "Fresco painting techniques (for wall paintings)",
+            "Emphasis on underlying drawing (disegno)",
+            "Careful modeling of form through light and shadow"
+        ],
+        "mediumSimulation": "Oil painting on canvas or wood panel (or Buon Fresco for wall)",
+        "colorPalette": {
+            "description": "Rich, naturalistic, and harmonious color palette. Use of oil glazes allows for subtle transitions and depth. Often features balanced use of primary colors (reds, blues, yellows) alongside naturalistic flesh tones, greens, and earth tones. Colors contribute to realism and mood.",
+            "keyColors": [
+                "Deep Reds (Crimson, Vermilion)",
+                "Rich Blues (Ultramarine, Azurite)",
+                "Golden Yellows / Ochres",
+                "Natural Greens",
+                "Realistic Flesh Tones",
+                "Browns / Umbers",
+                "White",
+                "Greys/Black (for shading)"
+            ]
+        },
+        "textureEmphasis": "Smooth surface finish typical of layered oil glazes or polished tempera/fresco. The focus is on realistically simulating the textures *within* the painting (e.g., silk, skin, stone, metal) rather than the physical texture of the paint itself.",
+        "compositionStyle": "Balanced, harmonious, and often symmetrical or pyramidal compositions. Clear focal point. Use of linear perspective to create a believable, receding space. Figures are well-integrated into the composition and environment. Sense of order, stability, and clarity.",
+        "references": [
+            "Leonardo da Vinci ('Mona Lisa', 'The Last Supper')",
+            "Raphael ('The School of Athens', Madonnas)",
+            "Michelangelo (Sistine Chapel Ceiling frescoes)",
+            "Titian (Venetian School - emphasis on colorito)",
+            "Jan van Eyck (Northern Renaissance - detailed realism, oil technique)",
+            "Albrecht Dürer (Northern Renaissance - prints, paintings)"
+        ]
+    },
+    "sceneContext": {
+        "lightingStyle": "Directional lighting creating soft shadows and volume (chiaroscuro), often naturalistic (e.g., window light) or idealized, enhancing realism, depth, and mood.",
+        "cameraView": "Eye-level or slightly low angle, employing linear perspective to create a sense of depth and ordered, rational space. Focus on balanced, harmonious compositions.",
+        "settingSuggestion": "Architectural interiors (churches, palaces with classical elements), idealized natural landscapes (often with atmospheric perspective), biblical or mythological settings, portrait backgrounds (can be simple drapery or detailed environments)."
+    },
+    "aiDirectives": {
+        "width": 1536,
+        "height": 1024,
+        "aspectRatio": "4:3",
+        "emphasize": [
+            "Realistic human anatomy and proportions (idealized)",
+            "Linear perspective and foreshortening",
+            "Chiaroscuro (use of light and shadow for volume)",
+            "Balanced and harmonious composition (pyramidal, symmetrical)",
+            "Idealized naturalism",
+            "Rich, blended color palette",
+            "Smooth finish (sfumato, glazes)",
+            "Detailed textures (fabric, skin, materials)",
+            "Classical architectural elements",
+            "Psychological presence of figures"
+        ],
+        "avoid": [
+            "Flat perspective / Lack of depth",
+            "Abstract or highly stylized forms",
+            "Visible heavy impasto or brushstrokes",
+            "Modern art styles (Impressionism, Cubism, etc.)",
+            "Photorealism (aim for painterly realism)",
+            "Distorted or exaggerated anatomy (unless stylistically intentional like Mannerism)",
+            "Harsh outlines without blending",
+            "Egyptian art conventions (composite view, hieroglyphs)",
+            "Cartoonish or illustrative style"
+        ],
+        "styleStrength": 0.85,
+        "negativePromptHints": [
+            "flat color",
+            "abstract",
+            "cartoon",
+            "modern art",
+            "photorealistic",
+            "distorted",
+            "primitive",
+            "Egyptian",
+            "heavy outlines",
+            "pixelated",
+            "sketchy",
+            "low detail",
+            "collage"
+        ]
+    }
+}

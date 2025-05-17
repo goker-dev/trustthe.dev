@@ -1,0 +1,125 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://goker.art/schemas/echoneo-prompt.schema.json/instances/prehistoric-mannerism",
+    "$type": "echoneo-artwork-prompt/v1",
+    "artworkTitle": "Prehistoric Art depicted in Mannerism Art Style",
+    "conceptDefinition": {
+        "origin": "Prehistoric Art",
+        "coreThemes": [
+            "Survival",
+            "The Hunt",
+            "Ritual",
+            "Human relationship with large fauna",
+            "Primal energy"
+        ],
+        "keySubjects": [
+            "Simplified human figures (hunters)",
+            "Large animals (e.g., bison, aurochs, deer)",
+            "Spears or primitive hunting tools",
+            "Cave walls or rocky landscape elements (as subject matter)"
+        ],
+        "narrativeFocus": "Depict a group of simplified, active human figures engaged in hunting a large bison or similar prehistoric animal. Focus on the action and relationship between hunters and prey.",
+        "desiredEmotion": "A mix of ritualistic reverence, primal tension, and the importance of the hunt for survival.",
+        "symbolismHints": [
+            "Emphasize the size and power of the animal",
+            "Show coordination among hunters",
+            "Use repetitive patterns if suggesting ritual"
+        ],
+        "references": [
+            "Cave paintings of Lascaux",
+            "Altamira cave art depictions of bison"
+        ]
+    },
+    "styleDefinition": {
+        "origin": "Mannerism (Europe, primarily Italy, c. 1520s - 1600 AD)",
+        "visualCharacteristics": [
+            "Reaction against High Renaissance harmony; emphasis on artifice, elegance, and technical virtuosity ('maniera')",
+            "Elongated human limbs, small heads, stylized features",
+            "Complex, exaggerated, and often unnatural twisting poses ('figura serpentinata')",
+            "Artificial and sophisticated quality, valuing complexity over naturalism",
+            "Ambiguous or illogical spatial compositions; crowded or compressed spaces",
+            "Intense, sometimes unsettling emotional expressions or cool detachment",
+            "Intricate details, ornamentation, and rendering of luxurious textures"
+        ],
+        "techniques": [
+            "Oil painting simulation showcasing smooth finish and intricate detail",
+            "Sophisticated use of line and complex modeling",
+            "Emphasis on displaying artistic skill and invention",
+            "Use of complex allegories and ambiguous subject matter"
+        ],
+        "mediumSimulation": "Oil painting on panel or canvas (or polished marble/bronze for sculpture)",
+        "colorPalette": {
+            "description": "Often employs highly artificial, intense, or 'acidic' color palettes. Use of shot colors (iridescent effects), sharp contrasts, non-naturalistic hues (e.g., sharp pinks, electric blues, acidic greens). Less focus on harmonious blending, more on decorative effect and emotional expression.",
+            "keyColors": [
+                "Acid Green",
+                "Sharp Pink/Rose",
+                "Electric Blue",
+                "Bright Orange",
+                "Pale Yellow",
+                "Iridescent tones",
+                "Cool Grays",
+                "Deep shadows"
+            ]
+        },
+        "textureEmphasis": "Smooth, highly finished, often polished surfaces that emphasize the artist's technical skill. Realistic rendering of textures (like silk, jewels, metal) but often within an overall artificial context.",
+        "compositionStyle": "Often deliberately unbalanced, asymmetrical, or crowded. Ambiguous spatial depth, figures pushed to the foreground or arranged in complex, overlapping patterns. Lack of clear focal point, emphasis on dynamic movement (serpentine lines) and decorative complexity.",
+        "references": [
+            "Pontormo ('Deposition from the Cross')",
+            "Bronzino ('An Allegory with Venus and Cupid', portraits)",
+            "Parmigianino ('Madonna with the Long Neck')",
+            "Giulio Romano (Palazzo del Tè decorations)",
+            "El Greco ('The Burial of the Count of Orgaz' - Spanish Mannerism)",
+            "Giambologna ('Abduction of the Sabine Women' - sculpture)"
+        ]
+    },
+    "sceneContext": {
+        "lightingStyle": "Often dramatic, theatrical, or artificial lighting with strong contrasts (chiaroscuro). Light can be cold, sharp, or unevenly distributed, highlighting surfaces and textures in a non-naturalistic way that enhances elegance, tension, and artifice.",
+        "cameraView": "Unusual or dynamic viewpoints (low-angle, high-angle, tilted, close-ups) that emphasize the contortions of figures ('figura serpentinata') and contribute to spatial ambiguity or compression. Avoids the stable, central perspective of High Renaissance.",
+        "settingSuggestion": "Ambiguous, compressed, or theatrical settings. Often shallow architectural niches, undefined abstract spaces, or backgrounds featuring luxurious fabrics/props that serve the composition rather than creating a realistic environment."
+    },
+    "aiDirectives": {
+        "width": 1536,
+        "height": 1024,
+        "aspectRatio": "4:3",
+        "emphasize": [
+            "Elongated limbs, small heads, stylized anatomy",
+            "'Figura serpentinata' (elegant, twisting, S-shaped poses)",
+            "Artificial, intense, acidic, or iridescent color palette",
+            "Smooth, polished finish with high detail (virtuosity)",
+            "Complex, crowded, asymmetrical, or deliberately unbalanced compositions",
+            "Ambiguous, compressed, or illogical spatial depth",
+            "Elegance, artifice, sophistication, 'maniera'",
+            "Stylized emotional intensity or cool, detached expressions",
+            "Intricate rendering of luxurious textures (silk, jewels, armor)"
+        ],
+        "avoid": [
+            "Naturalistic proportions of the High Renaissance",
+            "Simple, static, or relaxed poses",
+            "Balanced, symmetrical, harmonious compositions",
+            "Clear, rational, deep perspective space",
+            "Naturalistic, harmonious, or muted color palettes",
+            "Emphasis on naturalism or realism over artificial elegance",
+            "Rough, sketchy, or visibly textured brushwork",
+            "Stable, centered, eye-level viewpoints",
+            "Overt, heavy drama and movement associated with Baroque (Mannerism often feels more 'frozen' or poised)"
+        ],
+        "styleStrength": 0.85,
+        "negativePromptHints": [
+            "realistic proportions",
+            "natural colors",
+            "simple pose",
+            "balanced composition",
+            "clear perspective",
+            "Renaissance harmony",
+            "High Renaissance",
+            "Baroque drama",
+            "sketchy",
+            "rough texture",
+            "photorealistic",
+            "stable view",
+            "calm mood",
+            "natural lighting",
+            "minimalist"
+        ]
+    }
+}

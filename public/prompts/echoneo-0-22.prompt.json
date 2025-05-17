@@ -1,0 +1,104 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://goker.art/schemas/echoneo-prompt.schema.json/instances/prehistoric-abstract-expressionism",
+    "$type": "echoneo-artwork-prompt/v1",
+    "artworkTitle": "Prehistoric Art depicted in Abstract Expressionism Art Style",
+    "conceptDefinition": {
+        "origin": "Prehistoric Art",
+        "coreThemes": [
+            "Survival",
+            "The Hunt",
+            "Ritual",
+            "Human relationship with large fauna",
+            "Primal energy"
+        ],
+        "keySubjects": [
+            "Simplified human figures (hunters)",
+            "Large animals (e.g., bison, aurochs, deer)",
+            "Spears or primitive hunting tools",
+            "Cave walls or rocky landscape elements (as subject matter)"
+        ],
+        "narrativeFocus": "Depict a group of simplified, active human figures engaged in hunting a large bison or similar prehistoric animal. Focus on the action and relationship between hunters and prey.",
+        "desiredEmotion": "A mix of ritualistic reverence, primal tension, and the importance of the hunt for survival.",
+        "symbolismHints": [
+            "Emphasize the size and power of the animal",
+            "Show coordination among hunters",
+            "Use repetitive patterns if suggesting ritual"
+        ],
+        "references": [
+            "Cave paintings of Lascaux",
+            "Altamira cave art depictions of bison"
+        ]
+    },
+    "styleDefinition": {
+        "origin": "Abstract Expressionism (Primarily New York, USA, c. 1940s - 1950s AD)",
+        "visualCharacteristics": [
+            "Emphasis on non-representational (abstract) imagery",
+            "Focus on spontaneous, subconscious creation (automatism influence) or profound emotional/spiritual expression",
+            "Large scale canvases often used ('heroic' scale)",
+            "Two main tendencies: Action Painting (emphasizing the physical act and gesture) and Color Field Painting (emphasizing large areas of color)",
+            "Expresses inner emotions, psychological states, mythic archetypes, or the sublime",
+            "Rejection of traditional compositional structures and representational constraints"
+        ],
+        "techniques": [
+            "Action Painting Simulation: Dripping, pouring, splashing paint; vigorous, gestural brushwork; layering; impasto",
+            "Color Field Painting Simulation: Staining raw canvas with thin washes of paint; applying large, flat or subtly modulated areas of color; creating soft or hard edges between color fields",
+            "Emphasis on the process and materiality of painting"
+        ],
+        "mediumSimulation": "Oil or Acrylic painting on canvas",
+        "colorPalette": {
+            "description": "Highly variable. Action Painting often involves complex layering or dramatic contrasts (e.g., black and white). Color Field Painting focuses intensely on the relationships between large areas of color, which can be vibrant, somber, luminous, or atmospheric, chosen for specific emotional or spiritual resonance.",
+            "keyColors": [
+                "(Action): Often Black, White, plus layered primaries, earth tones, etc.",
+                "(Color Field): Large fields of Reds, Yellows, Oranges, Blues, Maroons, Blacks, etc., depending on the artist (e.g., Rothko, Newman)"
+            ]
+        },
+        "textureEmphasis": "Action Painting: Highly textural surfaces resulting from drips, thick impasto, energetic brushwork, and built-up layers; texture reflects the physical process. Color Field Painting: Often minimizes physical texture to emphasize the optical effects of flat, stained color fields, though edges between colors can have textural variations.",
+        "compositionStyle": "Action Painting: Often 'all-over' compositions lacking traditional focal points or hierarchy, emphasizing the energetic gesture across the entire canvas. Color Field Painting: Simplified compositions dominated by large, expansive areas of color, often symmetrical or using minimal divisions (like Barnett Newman's 'zips') to create a contemplative or overwhelming effect.",
+        "references": [
+            "Jackson Pollock (Drip paintings like 'Number 17A')",
+            "Willem de Kooning ('Woman I', abstract works)",
+            "Franz Kline (Black and white abstractions)",
+            "Mark Rothko (Color field paintings)",
+            "Barnett Newman ('Vir Heroicus Sublimis')",
+            "Clyfford Still (Jagged color field works)",
+            "Helen Frankenthaler (Stain paintings)"
+        ]
+    },
+    "sceneContext": {
+        "lightingStyle": "Flat, even, bright lighting with no discernible source or shadows, typical of Egyptian art.",
+        "cameraView": "Strict profile or composite view, straight-on perspective, avoiding complex angles.",
+        "settingSuggestion": "A stylized representation of a cave interior or outdoor landscape, framed perhaps with simple geometric Egyptian borders or patterns."
+    },
+    "aiDirectives": {
+        "width": 1536,
+        "height": 1024,
+        "aspectRatio": "4:3",
+        "emphasize": [
+            "Composite view of figures",
+            "Strong outlines",
+            "Flat color application",
+            "Hierarchical scale (if applicable)",
+            "Formal arrangement of figures"
+        ],
+        "avoid": [
+            "Realistic perspective",
+            "Atmospheric depth",
+            "Shading and blending of colors",
+            "Dynamic, fluid poses (use stiff Egyptian poses)",
+            "Realistic anatomy",
+            "Visible brushstrokes",
+            "1:1 aspect ratio"
+        ],
+        "styleStrength": 0.85,
+        "negativePromptHints": [
+            "photorealistic",
+            "3D render",
+            "depth",
+            "perspective",
+            "shadows",
+            "impressionistic",
+            "sketchy"
+        ]
+    }
+}

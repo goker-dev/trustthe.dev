@@ -1,0 +1,120 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://goker.art/schemas/echoneo-prompt.schema.json/instances/contemporary-art-prehistoric",
+    "$type": "echoneo-artwork-prompt/v1",
+    "artworkTitle": "Contemporary Art depicted in Prehistoric Art Style",
+    "conceptDefinition": {
+        "origin": "Contemporary Art (Global, c. late 1970s/80s - Present: 2025-04-25)",
+        "coreThemes": [
+            "Interconnectivity / Networks",
+            "Globalization (conceptual)",
+            "Information Flow (simplified)",
+            "Systems",
+            "Plurality (represented by nodes)",
+            "Technology (underlying concept)"
+        ],
+        "keySubjects": [
+            "Network of connecting lines",
+            "Nodes (dots, simple shapes, schematic figures, digital icons)",
+            "Web-like structures",
+            "Pathways",
+            "Abstract representation of data or connection",
+            "Scattered interconnected points"
+        ],
+        "narrativeFocus": "Depict a network of simple straight or slightly curved lines connecting multiple distinct points (represented by dots, small circles, schematic figures, or digital icons) displayed across a surface (such as a canvas, screen, or wall). The focus is on visually representing the concept of interconnectedness, pathways, or a system linking disparate elements using contemporary visual language.",
+        "desiredEmotion": "Interconnected, Networked, Systematic, Expansive (conceptual), Complex Structure (simplified)",
+        "symbolismHints": [
+            "Emphasize the connecting lines between distinct nodes",
+            "Create a visually evident network or web structure",
+            "Scatter the 'nodes' widely to suggest broad connection",
+            "Ensure lines clearly originate and terminate at nodes"
+        ],
+        "references": [
+            "Network diagrams (conceptual source)",
+            "Data visualization concepts",
+            "Conceptual art dealing with systems (e.g., aspects of Sol LeWitt, Hanne Darboven)"
+        ]
+    },
+    "sceneContext": {
+        "lightingStyle": "Neutral, even lighting suitable for displaying conceptual art (e.g., gallery lighting, screen illumination), focusing attention on the network structure.",
+        "cameraView": "Direct, clear view emphasizing the overall network pattern and connections, suitable for showcasing graphic or conceptual work.",
+        "settingSuggestion": "A clean, neutral surface like a gallery wall, a digital screen, or integrated into a contemporary installation space."
+    },
+    "aiDirectives": {
+        "width": 1536,
+        "height": 1024,
+        "aspectRatio": "4:3",
+        "emphasize": [
+            "Strong, simple lines (straight or slightly curved)",
+            "Primal rendering style",
+            "Clear network structure (lines connecting nodes)",
+            "Multiple distinct nodes/points",
+            "Sense of interconnectedness",
+            "Cave wall texture simulation",
+            "Limited ochre and black color palette"
+        ],
+        "avoid": [
+            "Representational imagery not serving the network concept",
+            "Expressive or gestural lines",
+            "Complex shapes for nodes or lines",
+            "Perspective, shading, or depth effects",
+            "Aesthetic harmony or beauty as the primary goal",
+            "Isolated elements without connections",
+            "1:1 aspect ratio"
+        ],
+        "styleStrength": 0.85,
+        "negativePromptHints": [
+            "photograph",
+            "3D render",
+            "realistic",
+            "perspective",
+            "detailed",
+            "Contemporary Art (actual examples)",
+            "isolated figures",
+            "expressive painting",
+            "complex shapes",
+            "aesthetic beauty",
+            "lack of connection",
+            "smooth background",
+            "representational scene"
+        ]
+    },
+    "styleDefinition": {
+        "origin": "Prehistoric Art (Global, primarily Upper Paleolithic cave art, c. 40,000 - 10,000 BCE)",
+        "visualCharacteristics": [
+            "Focus on animal figures (bison, horses, deer, mammoths), often depicted with surprising naturalism and vitality",
+            "Human figures less common and typically abstract, schematic, or stick-like (distinct from more detailed animal portrayals)",
+            "Use of strong contour lines to define forms",
+            "Handprints (positive prints or negative stencils) and geometric signs (dots, lines, symbols)",
+            "Frequent overlapping of figures, suggesting different time periods or lack of unified composition",
+            "Occasional use of natural rock formations integrated into the shape of the animal",
+            "General absence of backgrounds, ground lines, or consistent perspective"
+        ],
+        "techniques": [
+            "Simulation of painting/drawing on cave walls",
+            "Using natural earth pigments (ochres, charcoal, manganese) possibly mixed with binders",
+            "Application by blowing pigment, dabbing, drawing with pigment chunks/charcoal",
+            "Simulation of engraving or incising lines into rock surface"
+        ],
+        "mediumSimulation": "Cave wall painting simulation (using natural pigments and charcoal on rock surface)",
+        "colorPalette": {
+            "description": "Limited palette derived from natural mineral pigments: earth ochres, charcoal, and manganese dioxide. Colors typically applied flatly or with rudimentary shading.",
+            "keyColors": [
+                "Red Ochre",
+                "Yellow Ochre",
+                "Brown Ochre",
+                "Carbon Black / Manganese Black",
+                "White (Chalk/Kaolin - less common)"
+            ]
+        },
+        "textureEmphasis": "Rough, uneven texture inherent to the natural cave wall surface, often incorporated into the artwork. The paint/pigment itself may appear powdery or stained into the rock.",
+        "compositionStyle": "Figures often appear scattered, superimposed, or isolated across the cave surface without a clear compositional structure, ground line, or consistent scale. Arrangement seems opportunistic, utilizing wall contours rather than creating a unified scene.",
+        "references": [
+            "Lascaux Cave paintings (France)",
+            "Chauvet Cave paintings (France)",
+            "Altamira Cave paintings (Spain)",
+            "Hand stencils from El Castillo Cave (Spain)",
+            "Cosquer Cave (France)"
+        ]
+    }
+}

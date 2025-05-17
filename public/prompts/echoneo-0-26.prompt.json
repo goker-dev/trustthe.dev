@@ -1,0 +1,113 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://goker.art/schemas/echoneo-prompt.schema.json/instances/prehistoric-postmodernism",
+    "$type": "echoneo-artwork-prompt/v1",
+    "artworkTitle": "Prehistoric Art depicted in Postmodernism Art Style",
+    "conceptDefinition": {
+        "origin": "Prehistoric Art",
+        "coreThemes": [
+            "Survival",
+            "The Hunt",
+            "Ritual",
+            "Human relationship with large fauna",
+            "Primal energy"
+        ],
+        "keySubjects": [
+            "Simplified human figures (hunters)",
+            "Large animals (e.g., bison, aurochs, deer)",
+            "Spears or primitive hunting tools",
+            "Cave walls or rocky landscape elements (as subject matter)"
+        ],
+        "narrativeFocus": "Depict a group of simplified, active human figures engaged in hunting a large bison or similar prehistoric animal. Focus on the action and relationship between hunters and prey.",
+        "desiredEmotion": "A mix of ritualistic reverence, primal tension, and the importance of the hunt for survival.",
+        "symbolismHints": [
+            "Emphasize the size and power of the animal",
+            "Show coordination among hunters",
+            "Use repetitive patterns if suggesting ritual"
+        ],
+        "references": [
+            "Cave paintings of Lascaux",
+            "Altamira cave art depictions of bison"
+        ]
+    },
+    "styleDefinition": {
+        "origin": "Postmodernism (International, emerging c. late 1960s/1970s - late 20th Century AD, ongoing influence)",
+        "visualCharacteristics": [
+            "Reaction against Modernist principles (e.g., universalism, originality, purity of form)",
+            "Characterized by skepticism, irony, and eclecticism; no single unified style",
+            "Embraces complexity, contradiction, ambiguity, and humor",
+            "Frequent use of appropriation (borrowing existing images/styles), pastiche (imitating styles), and parody",
+            "Mixing of 'high' and 'low' culture, historical references, and diverse styles without hierarchy",
+            "Deconstruction of established norms and meanings",
+            "Emphasis on surface, signs, simulation, and the constructed nature of reality",
+            "Return of representation and figuration, often used ironically or critically",
+            "Focus on identity politics (gender, race, sexuality, etc.)"
+        ],
+        "techniques": [
+            "Highly diverse and interdisciplinary techniques:",
+            "Appropriation and recontextualization of existing imagery/objects",
+            "Pastiche (stylistic imitation)",
+            "Collage, Montage, Assemblage",
+            "Painting (often figurative, eclectic, or expressive - e.g., Neo-Expressionism)",
+            "Photography (often staged, conceptual, or appropriated)",
+            "Installation Art, Performance Art, Video Art",
+            "Use of text and language, often critically"
+        ],
+        "mediumSimulation": "Highly variable simulation depending on approach (e.g., Appropriative Painting, Staged Photography, Neo-Expressionist Painting, Mixed Media Collage)",
+        "colorPalette": {
+            "description": "Extremely diverse; no characteristic palette. Colors may be appropriated, ironic, kitschy, commercial, historically referential, or expressive depending on the specific strategy. Traditional color harmony is often disregarded or subverted.",
+            "keyColors": [
+                "(Highly Variable - depends on source/strategy)"
+            ]
+        },
+        "textureEmphasis": "Highly variable. Can range from slick, commercial, or photographic smoothness to rough, expressive textures (e.g., Neo-Expressionism), or the inherent textures of appropriated materials and images. Texture is often a self-conscious choice.",
+        "compositionStyle": "Extremely diverse, often rejecting Modernist unity or formal purity. Employs fragmentation, juxtaposition, layering, appropriation of existing compositions, pastiche, or deliberately awkward/unbalanced arrangements. Often challenges traditional notions of originality and coherence.",
+        "references": [
+            "(Diverse artists employing Postmodern strategies):",
+            "Cindy Sherman (Conceptual portraits/photography)",
+            "Jeff Koons (Kitsch sculpture, appropriation)",
+            "Barbara Kruger (Text and image works)",
+            "Sherrie Levine (Appropriation art)",
+            "David Salle (Layered/pastiche paintings)",
+            "Jean-Michel Basquiat (Neo-Expressionism)",
+            "Anselm Kiefer (Neo-Expressionism, history themes)",
+            "Jenny Holzer (Text-based art)"
+        ]
+    },
+    "sceneContext": {
+        "lightingStyle": "Flat, even, bright lighting with no discernible source or shadows, typical of Egyptian art.",
+        "cameraView": "Strict profile or composite view, straight-on perspective, avoiding complex angles.",
+        "settingSuggestion": "A stylized representation of a cave interior or outdoor landscape, framed perhaps with simple geometric Egyptian borders or patterns."
+    },
+    "aiDirectives": {
+        "width": 1536,
+        "height": 1024,
+        "aspectRatio": "4:3",
+        "emphasize": [
+            "Composite view of figures",
+            "Strong outlines",
+            "Flat color application",
+            "Hierarchical scale (if applicable)",
+            "Formal arrangement of figures"
+        ],
+        "avoid": [
+            "Realistic perspective",
+            "Atmospheric depth",
+            "Shading and blending of colors",
+            "Dynamic, fluid poses (use stiff Egyptian poses)",
+            "Realistic anatomy",
+            "Visible brushstrokes",
+            "1:1 aspect ratio"
+        ],
+        "styleStrength": 0.85,
+        "negativePromptHints": [
+            "photorealistic",
+            "3D render",
+            "depth",
+            "perspective",
+            "shadows",
+            "impressionistic",
+            "sketchy"
+        ]
+    }
+}

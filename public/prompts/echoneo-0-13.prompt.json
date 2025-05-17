@@ -1,0 +1,109 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://goker.art/schemas/echoneo-prompt.schema.json/instances/prehistoric-realism",
+    "$type": "echoneo-artwork-prompt/v1",
+    "artworkTitle": "Prehistoric Art depicted in Realism Art Style",
+    "conceptDefinition": {
+        "origin": "Prehistoric Art",
+        "coreThemes": [
+            "Survival",
+            "The Hunt",
+            "Ritual",
+            "Human relationship with large fauna",
+            "Primal energy"
+        ],
+        "keySubjects": [
+            "Simplified human figures (hunters)",
+            "Large animals (e.g., bison, aurochs, deer)",
+            "Spears or primitive hunting tools",
+            "Cave walls or rocky landscape elements (as subject matter)"
+        ],
+        "narrativeFocus": "Depict a group of simplified, active human figures engaged in hunting a large bison or similar prehistoric animal. Focus on the action and relationship between hunters and prey.",
+        "desiredEmotion": "A mix of ritualistic reverence, primal tension, and the importance of the hunt for survival.",
+        "symbolismHints": [
+            "Emphasize the size and power of the animal",
+            "Show coordination among hunters",
+            "Use repetitive patterns if suggesting ritual"
+        ],
+        "references": [
+            "Cave paintings of Lascaux",
+            "Altamira cave art depictions of bison"
+        ]
+    },
+    "styleDefinition": {
+        "origin": "Realism (Primarily France, c. mid-19th Century AD)",
+        "visualCharacteristics": [
+            "Accurate, objective, and unidealized depiction of contemporary, everyday life and subjects",
+            "Focus on ordinary people (peasants, laborers, middle class) and commonplace scenes",
+            "Rejection of historical, mythological, exotic, or overly sentimental themes",
+            "Emphasis on direct observation and truthfulness to reality",
+            "Often portrays the mundane, gritty, or unglamorous aspects of life without romanticizing them",
+            "Figures depicted honestly, showing signs of labor, age, or specific social class",
+            "Avoids artificial poses, Neoclassical idealism, or Romantic drama"
+        ],
+        "techniques": [
+            "Oil painting simulation with a focus on accurate representation",
+            "Direct painting style, often based on observation",
+            "Accurate rendering of light, form, and texture as perceived in the real world",
+            "Brushwork can vary but generally serves representational goals rather than expressive flourish"
+        ],
+        "mediumSimulation": "Oil painting on canvas",
+        "colorPalette": {
+            "description": "Generally utilizes naturalistic, often somber or earthy color palettes reflecting the observed reality of the subject. Avoids artificial or overly vibrant colors. Emphasis on accurate local color, browns, greys, greens, and muted tones.",
+            "keyColors": [
+                "Earthy Browns (Umbers, Siennas, Ochres)",
+                "Greys (various shades)",
+                "Muted Greens (foliage, work clothes)",
+                "Dull Blues (skies, fabrics)",
+                "Realistic Flesh Tones",
+                "Black / Dark Tones",
+                "White / Off-white"
+            ]
+        },
+        "textureEmphasis": "Focuses on accurately rendering the real textures of everyday objects, clothing, and environments (e.g., rough fabric, worn wood, soil, skin) without idealization. Brushwork aims for truthful depiction rather than artificial smoothness or expressive texture.",
+        "compositionStyle": "Often straightforward, direct, and unidealized compositions reflecting careful observation. Avoids complex academic structures or dramatic arrangements. Composition aims to present the subject matter clearly and truthfully, sometimes emphasizing solidity or horizontality.",
+        "references": [
+            "Gustave Courbet ('The Stone Breakers', 'A Burial at Ornans')",
+            "Jean-François Millet ('The Gleaners', 'The Angelus')",
+            "Honoré Daumier ('Third-Class Carriage', caricatures)",
+            "Édouard Manet (Works like 'Olympia' show Realist roots)",
+            "Ilya Repin ('Barge Haulers on the Volga' - Russian Realism)"
+        ]
+    },
+    "sceneContext": {
+        "lightingStyle": "Flat, even, bright lighting with no discernible source or shadows, typical of Egyptian art.",
+        "cameraView": "Strict profile or composite view, straight-on perspective, avoiding complex angles.",
+        "settingSuggestion": "A stylized representation of a cave interior or outdoor landscape, framed perhaps with simple geometric Egyptian borders or patterns."
+    },
+    "aiDirectives": {
+        "width": 1536,
+        "height": 1024,
+        "aspectRatio": "4:3",
+        "emphasize": [
+            "Composite view of figures",
+            "Strong outlines",
+            "Flat color application",
+            "Hierarchical scale (if applicable)",
+            "Formal arrangement of figures"
+        ],
+        "avoid": [
+            "Realistic perspective",
+            "Atmospheric depth",
+            "Shading and blending of colors",
+            "Dynamic, fluid poses (use stiff Egyptian poses)",
+            "Realistic anatomy",
+            "Visible brushstrokes",
+            "1:1 aspect ratio"
+        ],
+        "styleStrength": 0.85,
+        "negativePromptHints": [
+            "photorealistic",
+            "3D render",
+            "depth",
+            "perspective",
+            "shadows",
+            "impressionistic",
+            "sketchy"
+        ]
+    }
+}

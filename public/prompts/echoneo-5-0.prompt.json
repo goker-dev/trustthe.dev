@@ -1,0 +1,124 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://goker.art/schemas/echoneo-prompt.schema.json/instances/romanesque-prehistoric",
+    "$type": "echoneo-artwork-prompt/v1",
+    "artworkTitle": "Romanesque Art depicted in Prehistoric Art Style",
+    "conceptDefinition": {
+        "origin": "Romanesque Art & Culture (Medieval Europe, c. 1000-1200 AD)",
+        "coreThemes": [
+            "Biblical Narrative",
+            "Judgment (Last Judgment)",
+            "Divine Power / Majesty",
+            "Struggle (Good vs. Evil)",
+            "Spirituality",
+            "Morality"
+        ],
+        "keySubjects": [
+            "Central figure (Christ in Majesty)",
+            "Angels (schematic winged figures)",
+            "Apostles / Saints (schematic figures)",
+            "Demons / Devils (grotesque shapes)",
+            "Souls being judged (small human figures)",
+            "Fantastical beasts",
+            "Symbolic animals (Lion, Eagle)",
+            "Cross shape"
+        ],
+        "narrativeFocus": "Depict a central, imposing schematic figure (representing Christ in Majesty or a judging figure) surrounded by smaller, perhaps agitated or worshipful figures (souls, saints, angels, demons), rendered with strong, expressive outlines on a rock surface in a cave-art style. Convey a sense of drama and spiritual power.",
+        "desiredEmotion": "Spiritual Intensity, Primal Drama, Awe, Expressive Energy",
+        "symbolismHints": [
+            "Use size to denote the importance of the central figure",
+            "Employ strong, perhaps distorted, outlines to convey emotion or energy",
+            "Simplify symbolic shapes (e.g., mandorla to oval, halo to circle)",
+            "Depict schematic figures with expressive or dramatic gestures"
+        ],
+        "references": [
+            "Tympanum sculptures (Autun, Conques - conceptual source)",
+            "Romanesque frescoes",
+            "Beatus Apocalypse manuscripts (conceptual source)"
+        ]
+    },
+    "sceneContext": {
+        "lightingStyle": "Flat, indeterminate lighting, as appropriate for the intended Prehistoric style.",
+        "cameraView": "Direct, frontal or profile views emphasizing key figures and dramatic arrangements, mimicking the flatness of cave paintings.",
+        "settingSuggestion": "A rough, textured surface simulating a natural cave wall, reflecting the intended Prehistoric style."
+    },
+    "aiDirectives": {
+        "width": 1536,
+        "height": 1024,
+        "aspectRatio": "4:3",
+        "emphasize": [
+            "Strong, energetic outlines",
+            "Primal rendering style (simplified, expressive figures)",
+            "Dramatic poses or gestures",
+            "Central dominant figure (if applicable)",
+            "Cave wall texture simulation",
+            "Limited ochre and black color palette"
+        ],
+        "avoid": [
+            "Romanesque architectural settings (tympanums, capitals)",
+            "Stylized Romanesque drapery patterns (nested folds)",
+            "Realistic anatomy or proportions",
+            "Perspective or depth",
+            "Smooth surfaces or complex shading",
+            "Detailed backgrounds",
+            "Orderly, calm compositions",
+            "1:1 aspect ratio"
+        ],
+        "styleStrength": 0.85,
+        "negativePromptHints": [
+            "photograph",
+            "3D render",
+            "realistic",
+            "perspective",
+            "detailed",
+            "Romanesque sculpture",
+            "tympanum",
+            "capital",
+            "nested folds",
+            "smooth background",
+            "complex colors",
+            "naturalism",
+            "church architecture",
+            "calm",
+            "serene"
+        ]
+    },
+    "styleDefinition": {
+        "origin": "Prehistoric Art (Global, primarily Upper Paleolithic cave art, c. 40,000 - 10,000 BCE)",
+        "visualCharacteristics": [
+            "Focus on animal figures (bison, horses, deer, mammoths), often depicted with surprising naturalism and vitality",
+            "Human figures less common and typically abstract, schematic, or stick-like (distinct from more detailed animal portrayals)",
+            "Use of strong contour lines to define forms",
+            "Handprints (positive prints or negative stencils) and geometric signs (dots, lines, symbols)",
+            "Frequent overlapping of figures, suggesting different time periods or lack of unified composition",
+            "Occasional use of natural rock formations integrated into the shape of the animal",
+            "General absence of backgrounds, ground lines, or consistent perspective"
+        ],
+        "techniques": [
+            "Simulation of painting/drawing on cave walls",
+            "Using natural earth pigments (ochres, charcoal, manganese) possibly mixed with binders",
+            "Application by blowing pigment, dabbing, drawing with pigment chunks/charcoal",
+            "Simulation of engraving or incising lines into rock surface"
+        ],
+        "mediumSimulation": "Cave wall painting simulation (using natural pigments and charcoal on rock surface)",
+        "colorPalette": {
+            "description": "Limited palette derived from natural mineral pigments: earth ochres, charcoal, and manganese dioxide. Colors typically applied flatly or with rudimentary shading.",
+            "keyColors": [
+                "Red Ochre",
+                "Yellow Ochre",
+                "Brown Ochre",
+                "Carbon Black / Manganese Black",
+                "White (Chalk/Kaolin - less common)"
+            ]
+        },
+        "textureEmphasis": "Rough, uneven texture inherent to the natural cave wall surface, often incorporated into the artwork. The paint/pigment itself may appear powdery or stained into the rock.",
+        "compositionStyle": "Figures often appear scattered, superimposed, or isolated across the cave surface without a clear compositional structure, ground line, or consistent scale. Arrangement seems opportunistic, utilizing wall contours rather than creating a unified scene.",
+        "references": [
+            "Lascaux Cave paintings (France)",
+            "Chauvet Cave paintings (France)",
+            "Altamira Cave paintings (Spain)",
+            "Hand stencils from El Castillo Cave (Spain)",
+            "Cosquer Cave (France)"
+        ]
+    }
+}

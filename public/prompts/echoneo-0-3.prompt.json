@@ -1,0 +1,123 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://goker.art/schemas/echoneo-prompt.schema.json/instances/prehistoric-roman",
+    "$type": "echoneo-artwork-prompt/v1",
+    "artworkTitle": "Prehistoric Art depicted in Ancient Roman Art Style",
+    "conceptDefinition": {
+        "origin": "Prehistoric Art",
+        "coreThemes": [
+            "Survival",
+            "The Hunt",
+            "Ritual",
+            "Human relationship with large fauna",
+            "Primal energy"
+        ],
+        "keySubjects": [
+            "Simplified human figures (hunters)",
+            "Large animals (e.g., bison, aurochs, deer)",
+            "Spears or primitive hunting tools",
+            "Cave walls or rocky landscape elements (as subject matter)"
+        ],
+        "narrativeFocus": "Depict a group of simplified, active human figures engaged in hunting a large bison or similar prehistoric animal. Focus on the action and relationship between hunters and prey.",
+        "desiredEmotion": "A mix of ritualistic reverence, primal tension, and the importance of the hunt for survival.",
+        "symbolismHints": [
+            "Emphasize the size and power of the animal",
+            "Show coordination among hunters",
+            "Use repetitive patterns if suggesting ritual"
+        ],
+        "references": [
+            "Cave paintings of Lascaux",
+            "Altamira cave art depictions of bison"
+        ]
+    },
+    "styleDefinition": {
+        "origin": "Ancient Roman Art (Imperial Period, emphasis on Fresco Painting)",
+        "visualCharacteristics": [
+            "Realistic depiction of figures and settings (verism prominent in portraiture)",
+            "Use of modeling with color and shadow to create three-dimensional form",
+            "Illusionistic tendencies, aiming to create depth and spatial realism (atmospheric perspective)",
+            "Often depicts mythological scenes, landscapes, architectural vistas, or scenes of daily life",
+            "Figures possess weight and volume",
+            "Portraiture often shows individual likeness and age, rather than pure idealism (though influenced by Greek idealism)",
+            "Dynamic and complex compositions in narrative scenes"
+        ],
+        "techniques": [
+            "Fresco painting simulation (buon fresco - painting on wet plaster)",
+            "Use of chiaroscuro (light and shadow) for modeling form",
+            "Techniques to create illusionistic depth (e.g., perspective, receding architectural lines)",
+            "Detailed rendering of textures and surfaces within the painting"
+        ],
+        "mediumSimulation": "Fresco painting on a wall surface (Pompeian styles)",
+        "colorPalette": {
+            "description": "Rich and varied color palette including vibrant reds (like Pompeian Red), yellows, greens, blues, black, and white. Colors used for naturalistic representation and modeling.",
+            "keyColors": [
+                "Pompeian Red",
+                "Yellow Ochre",
+                "Green Earth",
+                "Egyptian Blue",
+                "Carbon Black",
+                "Chalk White",
+                "Umber"
+            ]
+        },
+        "textureEmphasis": "Smooth finish of polished fresco plaster, with illusionistic painted textures representing materials like marble, fabric, foliage within the scene.",
+        "compositionStyle": "Often complex, aiming for spatial depth ('window onto a world'). Use of architectural framing, atmospheric perspective (distant objects are lighter/bluer), multiple figures in narrative scenes, sometimes asymmetrical but balanced.",
+        "references": [
+            "Wall paintings from Pompeii and Herculaneum",
+            "Villa of Livia frescoes (garden landscape)",
+            "Villa Boscoreale frescoes (architectural vistas)",
+            "Fayum mummy portraits (encaustic on wood, but shows Roman portrait style)"
+        ]
+    },
+    "sceneContext": {
+        "lightingStyle": "Naturalistic lighting depicted *within the scene*, utilizing chiaroscuro (light and shadow) to model forms convincingly and create a sense of volume. Light sources within the painted scene might be implied (e.g., sunlight through an opening, lamps).",
+        "cameraView": "Typically an eye-level perspective that aims to create an illusionistic 'window onto a world'. Employs linear and atmospheric perspective techniques to suggest realistic spatial depth. The view might be framed by painted architectural elements.",
+        "settingSuggestion": "The depicted scene is painted onto a wall surface, showcasing: architectural vistas (real or fantastical), mythological narratives, landscapes/garden scenes, still lifes, or scenes of daily Roman life. Often includes painted frames, borders, or columns characteristic of Pompeian styles."
+    },
+    "aiDirectives": {
+        "width": 1536,
+        "height": 1024,
+        "aspectRatio": "4:3",
+        "emphasize": [
+            "Realistic depiction of figures, objects, and environments (verism)",
+            "Chiaroscuro modeling for 3D form and volume",
+            "Illusionistic spatial depth (using linear and atmospheric perspective)",
+            "Accurate Roman-era anatomy, clothing, and architecture",
+            "Sense of weight and volume in figures",
+            "Detailed painted textures (marble, metal, fabric, foliage)",
+            "Architectural framing or elements painted within the scene",
+            "Rich Roman color palette (Pompeian Red, ochres, greens, blues)",
+            "Smooth fresco surface appearance"
+        ],
+        "avoid": [
+            "Flat perspective or composition",
+            "Flat application of color without modeling/shading",
+            "Strong outlines without smooth blending",
+            "Stylized, elongated, or ethereal figures (Byzantine, Gothic)",
+            "Gold backgrounds or visible tesserae (Byzantine)",
+            "Medieval art conventions (Romanesque, Gothic figure styles)",
+            "Heavy visible impasto or distinct brushstrokes (fresco is smoother)",
+            "Abstract, cartoonish, or purely symbolic representations",
+            "Photorealism (aim for the specific realism of Roman fresco)",
+            "Egyptian art conventions"
+        ],
+        "styleStrength": 0.85,
+        "negativePromptHints": [
+            "flat",
+            "outline",
+            "Byzantine",
+            "mosaic",
+            "medieval",
+            "Gothic",
+            "Romanesque",
+            "cartoon",
+            "abstract",
+            "photograph",
+            "3D render",
+            "gold background",
+            "stylized figure",
+            "elongated figure",
+            "tesserae"
+        ]
+    }
+}
